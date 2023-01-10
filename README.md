@@ -53,5 +53,4 @@
 
 - 🔃 Create a new pull request.
 
-## License 📄
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+-> Inspired from: https://github.com/varadbhogayata/varadbhogayata.github.io
