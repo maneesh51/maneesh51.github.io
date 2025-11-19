@@ -94,9 +94,9 @@ work:
     summary: |
       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.   
 
-button:
-  text: Download CV
-  url: uploads/resume.pdf
+    button:
+      text: Download CV
+      url: uploads/resume.pdf
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
