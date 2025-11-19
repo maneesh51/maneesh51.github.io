@@ -58,14 +58,14 @@ interests:
   - Biochemical Networks
   - Cellular Information Processing
 
-# education:
-#   - area: PhD BioPhysics (Complex Networks and Dynamical systems focus)
-#     institution: Max Planck Institute for Neurobiology of Behavior - caesar, Bonn
-#     icon: ""
-#     date_start: 2019-14-01
-#     date_end: 2023-02-02
-#     summary: |
-#       Thesis on _developing a theory and novel framework to explain biochemical information processing in living cells with transients_. Supervised by Dr.Aneta Koseska.
+education:
+  - area: PhD BioPhysics (Complex Networks and Dynamical systems focus)
+    institution: Max Planck Institute for Neurobiology of Behavior - caesar, Bonn
+    icon: ""
+    date_start: 2019-14-01
+    date_end: 2023-02-02
+    summary: |
+      Thesis on _developing a theory and novel framework to explain biochemical information processing in living cells with transients_. Supervised by Dr.Aneta Koseska.
 #     button:
 #       text: 'Read Thesis'
 #       url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC'
