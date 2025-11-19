@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Alex Johnson
+title: Manish Yadav
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Manish
+last_name: Yadav
 
 # Pronouns (optional)
-pronouns: he/him
+# pronouns: he/him
 
 # Status emoji
 status:
@@ -23,35 +23,37 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Postdoctoral Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Technische Universität Berlin
+    url: https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: https://x.com/manish_yadav4
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/maneesh51
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: linkedin.com/in/manishyadav51/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?hl=en&user=X6MgHskAAAAJ&view_op=list_works&sortby=pubdate
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0005-6148-471X
+
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Nonlinear Dynamics
+  - Complex Networks
+  - Machine Learning
+  - Biochemical Networks
+  - Cellular Information Processing
 
 education:
   - area: PhD Computer Science (AI Focus)
@@ -169,4 +171,7 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I am a Physicist, currently working as a Postdoctoral Scientist at TU Berlin. I am interested in the real-word applications of complex dynamical systems, and therefore pursued Ph.D. at Cellular Computations and Learning group of Dr. Aneta Koseska at Max Planck Institue of Neurobiology of Behavior, Bonn in 2023. My Ph.D. thesis focussed on developing a theory and novel framework to explain biochemical information processing in living cells with transients.
+
+
+Currently, I am situated at the Cyber-Physical Systems in Mechanical Engineering (CPS-ME) deartment of TU Berlin for the DFG priority program SPP 2353 to develop novel design assistants with regard to complex dynamic loads in structural dynamics using dynamically integrated methods of machine learning. Particularly, I am working on reservoir computing approaches for fast and green machine learning.
