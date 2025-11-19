@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Manish Yadav
+title: Dr. Manish Yadav
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Manish
+first_name: Dr. Manish
 last_name: Yadav
 
 # Pronouns (optional)
@@ -41,11 +41,14 @@ profiles:
   - icon: brands/github
     url: https://github.com/maneesh51
   - icon: brands/linkedin
-    url: linkedin.com/in/manishyadav51/
+    url: https://www.linkedin.com/in/manishyadav51
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?hl=en&user=X6MgHskAAAAJ&view_op=list_works&sortby=pubdate
   - icon: academicons/orcid
     url: https://orcid.org/0009-0005-6148-471X
+  - icon: researchgate
+    icon_pack: ai
+    url: https://www.researchgate.net/profile/Manish-Yadav-16?ev=hdr_xprf
 
 
 interests:
