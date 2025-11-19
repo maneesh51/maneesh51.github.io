@@ -123,9 +123,7 @@ education:
     date_start: 2013-08-01
     date_end: 2018-05-31
     MS thesis: in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
-    button:
-      text: 'Read Thesis'
-      url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&citation_for_view=X6MgHskAAAAJ:NMxIlDl6LWMC
+    
     
   
 # Skills
