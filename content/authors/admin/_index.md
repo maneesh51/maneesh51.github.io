@@ -58,54 +58,6 @@ interests:
   - Biochemical Networks
   - Cellular Information Processing
 
-# education:
-#   - area: PhD Computer Science (AI Focus)
-#     institution: Stanford University
-#     icon: ""
-#     date_start: 2015-09-01
-#     date_end: 2019-06-30
-#     summary: |
-#       Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-#     button:
-#       text: 'Read Thesis'
-#       url: 'https://example.com/thesis.pdf'
-#   - area: MS Computer Science
-#     institution: Carnegie Mellon University
-#     icon: ""
-#     date_start: 2013-09-01
-#     date_end: 2015-05-31
-#     summary: |
-#       GPA: 4.0/4.0
-
-#       Specialized in machine learning and robotics.
-#   - area: BS Computer Science
-#     institution: MIT
-#     icon: ""
-#     date_start: 2009-09-01
-#     date_end: 2013-05-31
-#     summary: |
-#       GPA: 3.9/4.0
-
-#       Minored in Mathematics. President of AI Club.
-
-work:
-  - position: Postdoctoral Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    icon: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
 education:
   - area: PhD BioPhysics (Complex Networks and Dynamical systems focus)
     institution: Max Planck Institute for Neurobiology of Behavior - caesar, Bonn
@@ -123,6 +75,53 @@ education:
     date_start: 2013-08-01
     date_end: 2018-05-31
     MS thesis: in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
+
+work:
+  - area: PhD BioPhysics (Complex Networks and Dynamical systems focus)
+    institution: Max Planck Institute for Neurobiology of Behavior - caesar, Bonn
+    icon: ""
+    date_start: 2019-14-01
+    date_end: 2023-02-02
+    summary: |
+      Thesis on _developing a theory and novel framework to explain biochemical information processing in living cells with transients_. Supervised by Dr.Aneta Koseska.
+    button:
+      text: 'Read Thesis'
+      url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC'
+
+  - position: Postdoctoral Scientist
+    company_name: Meta AI
+    company_url: 'https://ai.meta.com/'
+    icon: ''
+    date_start: 2020-01-01
+    date_end: ''
+    summary: |2-
+      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
+  - position: AI Research Intern
+    company_name: OpenAI
+    company_url: 'https://openai.com/'
+    icon: ''
+    date_start: 2019-06-01
+    date_end: 2019-12-31
+    summary: |
+      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+
+# education:
+#   - area: PhD BioPhysics (Complex Networks and Dynamical systems focus)
+#     institution: Max Planck Institute for Neurobiology of Behavior - caesar, Bonn
+#     icon: ""
+#     date_start: 2019-14-01
+#     date_end: 2023-02-02
+#     summary: |
+#       Thesis on _developing a theory and novel framework to explain biochemical information processing in living cells with transients_. Supervised by Dr.Aneta Koseska.
+#     button:
+#       text: 'Read Thesis'
+#       url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC'
+#   - area: BS-MS in Physics
+#     institution: Indian Institute of Science Education and Research, Mohali, India
+#     icon: ""
+#     date_start: 2013-08-01
+#     date_end: 2018-05-31
+#     MS thesis: in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
     
     
   
