@@ -166,11 +166,11 @@ work:
 #         percent: 70
 #         icon: book-open
 
-languages:
-  - name: English
-    percent: 100
-  - name: Spanish
-    percent: 50
+# languages:
+#   - name: English
+#     percent: 100
+#   - name: Spanish
+#     percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -179,15 +179,15 @@ languages:
 awards:
   - title: IMPRS for Living Matter fellow
     url: https://www.imprs-lm.mpg.de/
-    date: '2019-01-14'
-    awarder: January 2019 to Febuary 2023
+    date: ''
+    awarder: 2019 to 2023
     icon: hero/trophy
     summary: |
       PhD graduate at International Max Planck Research School for Living Matter from molecules to dynamics(IMPRS-LM), Dortmund.
   - title:  Innovation in Science Pursuit for Inspired Research (INSPIRE) Scholarship
     url: https://online-inspire.gov.in/Account/INSPIREProgramme
-    date: '2013-08-01'
-    awarder: Depatment of Science and Technology
+    date: ''
+    awarder: 2013 to 2018
     icon: hero/currency-dollar
     summary: |
       Recipient of Innovation in Science Pursuit for Inspired Research (INSPIRE) scholarship by Depatment of Science and Technology, Govt. of India.
