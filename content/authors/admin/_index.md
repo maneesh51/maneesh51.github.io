@@ -186,7 +186,7 @@ awards:
       PhD graduate at International Max Planck Research School for Living Matter from molecules to dynamics(IMPRS-LM), Dortmund.
   - title:  Innovation in Science Pursuit for Inspired Research (INSPIRE) Scholarship
     url: https://online-inspire.gov.in/Account/INSPIREProgramme
-    date: '2013-08'
+    date: '2013-08-01'
     awarder: Depatment of Science and Technology
     icon: hero/currency-dollar
     summary: |
