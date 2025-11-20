@@ -108,26 +108,29 @@ work:
       text: 'Read Thesis'
       url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:NMxIlDl6LWMC'
   - position: Research Internship
-    company_name: Cyber-Physical Systems in Mechanical Engineering, Technische Universität Berlin 
-    company_url: 'https://www.tu.berlin/cpsme'
+    company_name: Institute of Mathematical Sciences (IMSc) Chennai, India
+    company_url: ''
     icon: ''
-    date_start: 2023-04-02
-    date_end: ''
+    date_start: 2017-05
+    date_end: 2017-07
     summary: |
-      Leading research on DIRC: Dynamics-Informed Reservoir Computing part of [DFG Priority Program SPP 2353: Daring More Intelligence](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/). The project includes building design assistants based on dynamics-informed machine learning in structural mechanics.
+      on ‘Sprial Waves in 2D Kuramoto Model’ with Prof. Sitabhra Sinha
   - position: Research Internship
-    company_name: |
-      Max Planck Institute for Neurobiology of Behavior - caesar, Bonn. and
-      Max Planck Institute of Molecular Physiology, Dortmund.
-    company_url: 'https://mpinb.mpg.de/en/'
+    company_name: IISER Mohali
+    company_url: ''
     icon: ''
-    date_start: 2019-01-14
-    date_end: 2023-02-02
+    date_start: 2016-05
+    date_end: 2016-07
     summary: |
-      PhD thesis on _developing a theory and novel framework to explain biochemical information processing in living cells with transients_. Supervised by Dr. Aneta Koseska.   
-    button:
-      text: 'Read Thesis'
-      url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC'
+      on ‘Surface Acoustic Wave (SAW) devices’ with Prof. Ananth Venkateshan   
+  - position: Research Internship
+    company_name: Central University of Rajasthan, India
+    company_url: ''
+    icon: ''
+    date_start: 2015-05
+    date_end: 2015-07
+    summary: |
+      on ‘Suppression and Revival of Oscillations in a Network of Indirectly Coupled Nonlinear Oscillators’ with Prof. M. D. Shrimali  
     # button:
     #   text: Download CV
     #   url: uploads/resume.pdf
@@ -135,37 +138,37 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python & PyTorch
+#         description: ''
+#         percent: 95
+#         icon: code-bracket
+#       - name: Machine Learning
+#         description: ''
+#         percent: 100
+#         icon: chart-bar
+#       - name: Cloud Computing (AWS/GCP)
+#         description: ''
+#         percent: 85
+#         icon: cloud
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Hiking in the Rockies
+#         description: ''
+#         percent: 80
+#         icon: person-simple-walk
+#       - name: Building Custom PCs
+#         description: ''
+#         percent: 90
+#         icon: cpu-chip
+#       - name: Sci-Fi Reading
+#         description: ''
+#         percent: 70
+#         icon: book-open
 
 languages:
   - name: English
@@ -178,13 +181,13 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: IMPRS for Living Matter fellow
+    url: https://www.imprs-lm.mpg.de/
+    # date: '2019-01'
+    awarder: January 2019 to Febuary 2023
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
+      PhD graduate at International Max Planck Research School for Living Matter from molecules to dynamics(IMPRS-LM), Dortmund.
   - title: AI Innovation Grant
     url: https://www.nsf.gov/
     date: '2021-06-15'
