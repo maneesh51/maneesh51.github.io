@@ -4,6 +4,7 @@ title: "An example journal article 2"
 authors:
 - admin
 - Merten Stender
+- Sudeshna Sinha
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -24,7 +25,12 @@ publication_short: ""
 abstract: Lorem ipsumibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: In the quest to understand the   structure-function relationship of networks, scientists ended-up developing a new method for designing efficient networks that solve complex tasks with fewer nodes and greater efficiency, by allowing networks to grow and shrink based on performance, outperforming traditional random networks and other common growth strategies. The study introduces a novel performance-dependent network evolution framework, where networks dynamically add or remove nodes depending on how well they solve a given task [1]. This results in smaller, more specialized structures optimized for specific types of information processing, following unique scaling laws and node distributions. The proposed framework has been tested on reservoir computers, a machine-learning model with three layers: input, reservoir, and output. The input layer maps data into the reservoir, a fixed high-dimensional dynamical system, while only the output layer is trained, making the system computationally efficient by tuning just this layer instead of the entire network.
+  Unlike conventional reservoir networks, which often require extensive tuning, these evolved reservoir networks naturally develop minimal structures that achieve high performance with fewer nodes. The study found that networks solving simple tasks, such as sine-to-cosine mapping, tend to be smaller and denser, while more complex tasks, like chaotic time-series prediction, require larger networks but remain efficient. This reveals a clear relationship between network size, density, and task complexity, leading to one of the study's key contributions: a new method to quantify task complexity by analyzing the self-organization of evolved networks in the parametric space of network size and density. 
+  
+  Additionally, evolved networks exhibit a distinctive asymmetry in the distribution of input and readout nodes. This mirrors biological systems, where networks prioritize extracting and processing information efficiently.
+  This work has broad implications for fields like network science, reservoir computing, machine learning, and neuroscience. By revealing the underlying principles of task-specific network growth, it provides a powerful framework for designing more efficient and adaptable computational networks. This could lead to smaller, faster, and more specialized AI systems, as well as provide deeper insights into how biological networks evolve to process complex information.
+
 
 tags:
 - Source Themes
@@ -55,7 +61,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: author
   focal_point: ""
   preview_only: false
 
