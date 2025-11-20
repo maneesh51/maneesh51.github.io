@@ -97,9 +97,9 @@ work:
       text: 'Read Thesis'
       url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC'
 
-    button:
-      text: Download CV
-      url: uploads/resume.pdf
+    # button:
+    #   text: Download CV
+    #   url: uploads/resume.pdf
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
