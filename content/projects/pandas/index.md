@@ -1,15 +1,18 @@
 ---
-title: Pandas
+title: Network structure-function relationship
 date: 2023-10-26
-links:
-  - type: site
-    url: https://github.com/pandas-dev/pandas
+# links:
+#   - type: site
+    # url: https://github.com/pandas-dev/pandas
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Network evolution
+  - structure-function
+  - Reservoir computing
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+This project has been started to understand the structure-function relationship of networks. 
+
+**Part-1** Performance-Dependent Network Evolution (PDNE) framework
+**Part-2** Network pruning
 
 <!--more-->
