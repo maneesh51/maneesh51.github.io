@@ -96,7 +96,7 @@ work:
   #   date_start: ""
   #   date_end: ""
   #   summary: ""
-  - position: Research Internship
+  - position: Research Internship-3
     company_name: Institute of Mathematical Sciences (IMSc) Chennai, India
     company_url: ''
     icon: ''
@@ -104,7 +104,7 @@ work:
     date_end: 2017-07-01
     summary: |
       on ‘Sprial Waves in 2D Kuramoto Model’ with Prof. Sitabhra Sinha
-  - position: Research Internship
+  - position: Research Internship-2
     company_name: IISER Mohali
     company_url: ''
     icon: ''
@@ -112,7 +112,7 @@ work:
     date_end: 2016-07-01
     summary: |
       on ‘Surface Acoustic Wave (SAW) devices’ with Prof. Ananth Venkateshan   
-  - position: Research Internship
+  - position: Research Internship-1
     company_name: Central University of Rajasthan, India
     company_url: ''
     icon: ''
@@ -126,10 +126,7 @@ work:
     date_start: 2013-08-01
     date_end: 2018-05-31
     summary: |
-      MS thesis in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
-    button:
-      text: 'Read Thesis'
-      url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:NMxIlDl6LWMC'
+      MS thesis in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha.
     # button:
     #   text: Download CV
     #   url: uploads/resume.pdf
@@ -137,37 +134,37 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python & PyTorch
+#         description: ''
+#         percent: 95
+#         icon: code-bracket
+#       - name: Machine Learning
+#         description: ''
+#         percent: 100
+#         icon: chart-bar
+#       - name: Cloud Computing (AWS/GCP)
+#         description: ''
+#         percent: 85
+#         icon: cloud
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Hiking in the Rockies
+#         description: ''
+#         percent: 80
+#         icon: person-simple-walk
+#       - name: Building Custom PCs
+#         description: ''
+#         percent: 90
+#         icon: cpu-chip
+#       - name: Sci-Fi Reading
+#         description: ''
+#         percent: 70
+#         icon: book-open
 
 languages:
   - name: English
