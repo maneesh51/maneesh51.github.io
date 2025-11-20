@@ -96,17 +96,6 @@ work:
   #   date_start: ""
   #   date_end: ""
   #   summary: ""
-      
-  - position: BS-MS in Physics
-    company_name: Indian Institute of Science Education and Research, Mohali, India
-    icon: ""
-    date_start: 2013-08-01
-    date_end: 2018-05-31
-    summary: |
-      MS thesis in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
-    button:
-      text: 'Read Thesis'
-      url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:NMxIlDl6LWMC'
   - position: Research Internship
     company_name: Institute of Mathematical Sciences (IMSc) Chennai, India
     company_url: ''
@@ -131,6 +120,16 @@ work:
     date_end: 2015-07-01
     summary: |
       on ‘Suppression and Revival of Oscillations in a Network of Indirectly Coupled Nonlinear Oscillators’ with Prof. M. D. Shrimali  
+  - position: BS-MS in Physics
+    company_name: Indian Institute of Science Education and Research, Mohali, India
+    icon: ""
+    date_start: 2013-08-01
+    date_end: 2018-05-31
+    summary: |
+      MS thesis in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
+    button:
+      text: 'Read Thesis'
+      url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:NMxIlDl6LWMC'
     # button:
     #   text: Download CV
     #   url: uploads/resume.pdf
@@ -138,37 +137,37 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-# skills:
-#   - name: Technical Skills
-#     items:
-#       - name: Python & PyTorch
-#         description: ''
-#         percent: 95
-#         icon: code-bracket
-#       - name: Machine Learning
-#         description: ''
-#         percent: 100
-#         icon: chart-bar
-#       - name: Cloud Computing (AWS/GCP)
-#         description: ''
-#         percent: 85
-#         icon: cloud
-#   - name: Hobbies
-#     color: '#eeac02'
-#     color_border: '#f0bf23'
-#     items:
-#       - name: Hiking in the Rockies
-#         description: ''
-#         percent: 80
-#         icon: person-simple-walk
-#       - name: Building Custom PCs
-#         description: ''
-#         percent: 90
-#         icon: cpu-chip
-#       - name: Sci-Fi Reading
-#         description: ''
-#         percent: 70
-#         icon: book-open
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python & PyTorch
+        description: ''
+        percent: 95
+        icon: code-bracket
+      - name: Machine Learning
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: Cloud Computing (AWS/GCP)
+        description: ''
+        percent: 85
+        icon: cloud
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking in the Rockies
+        description: ''
+        percent: 80
+        icon: person-simple-walk
+      - name: Building Custom PCs
+        description: ''
+        percent: 90
+        icon: cpu-chip
+      - name: Sci-Fi Reading
+        description: ''
+        percent: 70
+        icon: book-open
 
 languages:
   - name: English
