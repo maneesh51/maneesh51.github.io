@@ -182,7 +182,7 @@ languages:
 awards:
   - title: IMPRS for Living Matter fellow
     url: https://www.imprs-lm.mpg.de/
-    date: '2019-01'
+    date: '2019-01-14'
     awarder: January 2019 to Febuary 2023
     icon: hero/trophy
     summary: |
