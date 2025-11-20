@@ -122,7 +122,7 @@ work:
       on ‘Suppression and Revival of Oscillations in a Network of Indirectly Coupled Nonlinear Oscillators’ with Prof. M. D. Shrimali  
   - position: BS-MS in Physics
     company_name: Indian Institute of Science Education and Research, Mohali, India
-    icon: ""
+    icon: hero/academic-cap
     date_start: 2013-08-01
     date_end: 2018-05-31
     summary: |
@@ -184,20 +184,13 @@ awards:
     icon: hero/trophy
     summary: |
       PhD graduate at International Max Planck Research School for Living Matter from molecules to dynamics(IMPRS-LM), Dortmund.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
+  - title:  Innovation in Science Pursuit for Inspired Research (INSPIRE) Scholarship
+    url: https://online-inspire.gov.in/Account/INSPIREProgramme
+    date: '2013-08'
+    awarder: Depatment of Science and Technology
     icon: hero/currency-dollar
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Recipient of Innovation in Science Pursuit for Inspired Research (INSPIRE) scholarship by Depatment of Science and Technology, Govt. of India.
 ---
 
 I am a Physicist, currently working as a Postdoctoral Scientist at TU Berlin. I am interested in the real-word applications of complex dynamical systems, and therefore pursued Ph.D. at Cellular Computations and Learning group of Dr. Aneta Koseska at Max Planck Institue of Neurobiology of Behavior, Bonn in 2023. My Ph.D. thesis focussed on developing a theory and novel framework to explain biochemical information processing in living cells with transients.
