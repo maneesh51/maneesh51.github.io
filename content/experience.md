@@ -24,7 +24,7 @@ sections:
       username: admin
   - block: resume-languages
     content:
-      title: Languages
+      title: ''
       username: admin
   - block: resume-skills
     content:
