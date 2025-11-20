@@ -46,8 +46,7 @@ profiles:
     url: https://scholar.google.com/citations?hl=en&user=X6MgHskAAAAJ&view_op=list_works&sortby=pubdate
   - icon: academicons/orcid
     url: https://orcid.org/0009-0005-6148-471X
-  - icon: researchgate
-    icon_pack: ai
+  - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/Manish-Yadav-16?ev=hdr_xprf
 
 
@@ -127,6 +126,9 @@ work:
     date_end: 2018-05-31
     summary: |
       MS thesis in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha.
+    button:
+      text: 'Read Thesis'
+      url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:NMxIlDl6LWMC'
     # button:
     #   text: Download CV
     #   url: uploads/resume.pdf
