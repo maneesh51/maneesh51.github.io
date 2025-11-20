@@ -20,13 +20,13 @@ sections:
       is_education_first: False
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: ''
       username: admin
     design:
       show_skill_percentage: false
   - block: resume-awards
     content:
-      title: Awards
+      title: Awards and Recognition
       username: admin
   - block: resume-languages
     content:
