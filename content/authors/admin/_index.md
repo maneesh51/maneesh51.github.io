@@ -111,24 +111,24 @@ work:
     company_name: Institute of Mathematical Sciences (IMSc) Chennai, India
     company_url: ''
     icon: ''
-    date_start: 2017-05
-    date_end: 2017-07
+    date_start: 2017-05-01
+    date_end: 2017-07-01
     summary: |
       on ‘Sprial Waves in 2D Kuramoto Model’ with Prof. Sitabhra Sinha
   - position: Research Internship
     company_name: IISER Mohali
     company_url: ''
     icon: ''
-    date_start: 2016-05
-    date_end: 2016-07
+    date_start: 2016-05-01
+    date_end: 2016-07-01
     summary: |
       on ‘Surface Acoustic Wave (SAW) devices’ with Prof. Ananth Venkateshan   
   - position: Research Internship
     company_name: Central University of Rajasthan, India
     company_url: ''
     icon: ''
-    date_start: 2015-05
-    date_end: 2015-07
+    date_start: 2015-05-01
+    date_end: 2015-07-01
     summary: |
       on ‘Suppression and Revival of Oscillations in a Network of Indirectly Coupled Nonlinear Oscillators’ with Prof. M. D. Shrimali  
     # button:
@@ -181,7 +181,7 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: IMPRS for Living Matter fellow
+  # - title: IMPRS for Living Matter fellow
   #   url: https://www.imprs-lm.mpg.de/
   #   date: '2019-01'
   #   awarder: January 2019 to Febuary 2023
