@@ -107,12 +107,7 @@ work:
     button:
       text: 'Read Thesis'
       url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:NMxIlDl6LWMC'
-    # button:
-    #   text: Download CV
-    #   url: uploads/resume.pdf
-
-internships:
-  - position: Postdoctoral Scientist
+  - position: Research Internship
     company_name: Cyber-Physical Systems in Mechanical Engineering, Technische Universität Berlin 
     company_url: 'https://www.tu.berlin/cpsme'
     icon: ''
@@ -120,7 +115,7 @@ internships:
     date_end: ''
     summary: |
       Leading research on DIRC: Dynamics-Informed Reservoir Computing part of [DFG Priority Program SPP 2353: Daring More Intelligence](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/). The project includes building design assistants based on dynamics-informed machine learning in structural mechanics.
-  - position: PhD in BioPhysics (Complex Networks and Dynamical systems focus)
+  - position: Research Internship
     company_name: |
       Max Planck Institute for Neurobiology of Behavior - caesar, Bonn. and
       Max Planck Institute of Molecular Physiology, Dortmund.
@@ -133,7 +128,9 @@ internships:
     button:
       text: 'Read Thesis'
       url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC'
-
+    # button:
+    #   text: Download CV
+    #   url: uploads/resume.pdf
 
 
 # Skills
