@@ -89,13 +89,13 @@ work:
       text: 'Read Thesis'
       url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC'
       
-  - position: |
-      <div style="text-align: center; font-size: 2em; font-weight: bold; margin: 20px 0;">Education</div>
-    company_name: ""
-    icon: ""
-    date_start: ""
-    date_end: ""
-    summary: ""
+  # - position: |
+  #     <div style="text-align: center; font-size: 2em; font-weight: bold; margin: 20px 0;">Education</div>
+  #   company_name: ""
+  #   icon: ""
+  #   date_start: ""
+  #   date_end: ""
+  #   summary: ""
       
   - position: BS-MS in Physics
     company_name: Indian Institute of Science Education and Research, Mohali, India
