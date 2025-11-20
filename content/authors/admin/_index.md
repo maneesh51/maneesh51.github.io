@@ -58,13 +58,13 @@ interests:
   - Biochemical Networks
   - Cellular Information Processing
 
-education:
-  - area: BS-MS in Physics
-    institution: Indian Institute of Science Education and Research, Mohali, India
-    icon: ""
-    date_start: 2013-08-01
-    date_end: 2018-05-31
-    MS thesis: in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
+# education:
+#   - area: BS-MS in Physics
+#     institution: Indian Institute of Science Education and Research, Mohali, India
+#     icon: ""
+#     date_start: 2013-08-01
+#     date_end: 2018-05-31
+#     MS thesis: in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
 
 work:
   - position: Postdoctoral Scientist
@@ -88,7 +88,12 @@ work:
     button:
       text: 'Read Thesis'
       url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC'
-
+  - area: BS-MS in Physics
+    institution: Indian Institute of Science Education and Research, Mohali, India
+    icon: ""
+    date_start: 2013-08-01
+    date_end: 2018-05-31
+    MS thesis: in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
     # button:
     #   text: Download CV
     #   url: uploads/resume.pdf
