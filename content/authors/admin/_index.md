@@ -181,15 +181,15 @@ work:
 awards:
   - title: IMPRS for Living Matter fellow
     url: https://www.imprs-lm.mpg.de/
-    date: ''
-    awarder: 2019 to 2023
+    date: '2023.02.02'
+    awarder: January 2019 to 
     icon: hero/trophy
     summary: |
       PhD graduate at International Max Planck Research School for Living Matter from molecules to dynamics(IMPRS-LM), Dortmund.
   - title:  Innovation in Science Pursuit for Inspired Research (INSPIRE) Scholarship
     url: https://online-inspire.gov.in/Account/INSPIREProgramme
-    date: ''
-    awarder: 2013 to 2018
+    date: '2018.08.25'
+    awarder: August 2013 to 
     icon: hero/currency-dollar
     summary: |
       Recipient of Innovation in Science Pursuit for Inspired Research (INSPIRE) scholarship by Depatment of Science and Technology, Govt. of India.
