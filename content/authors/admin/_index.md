@@ -181,13 +181,13 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  # - title: IMPRS for Living Matter fellow
-  #   url: https://www.imprs-lm.mpg.de/
-  #   date: '2019-01'
-  #   awarder: January 2019 to Febuary 2023
-  #   icon: hero/trophy
-  #   summary: |
-  #     PhD graduate at International Max Planck Research School for Living Matter from molecules to dynamics(IMPRS-LM), Dortmund.
+  - title: IMPRS for Living Matter fellow
+    url: https://www.imprs-lm.mpg.de/
+    date: '2019-01'
+    awarder: January 2019 to Febuary 2023
+    icon: hero/trophy
+    summary: |
+      PhD graduate at International Max Planck Research School for Living Matter from molecules to dynamics(IMPRS-LM), Dortmund.
   - title: AI Innovation Grant
     url: https://www.nsf.gov/
     date: '2021-06-15'
