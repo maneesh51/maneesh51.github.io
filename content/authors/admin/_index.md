@@ -78,7 +78,7 @@ interests:
 
 work:
   - position: Postdoctoral Scientist
-    company_name: Cyber-Physical Systems in Mechanical Engineering, Technische Universität Berlin
+    company_name: Cyber-Physical Systems in Mechanical Engineering, Technische Universität Berlin 
     company_url: 'https://www.tu.berlin/cpsme'
     icon: ''
     date_start: 2023-04-02
@@ -86,7 +86,8 @@ work:
     summary: |
       Leading research on DIRC: Dynamics-Informed Reservoir Computing part of [DFG Priority Program SPP 2353: Daring More Intelligence](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/). The project includes building design assistants based on dynamics-informed machine learning in structural mechanics.
   - position: PhD BioPhysics (Complex Networks and Dynamical systems focus)
-    company_name: Max Planck Institute for Neurobiology of Behavior - caesar, Bonn.| Max Planck Institute of Molecular Physiology.
+    company_name: Max Planck Institute for Neurobiology of Behavior - caesar, Bonn. 
+      Max Planck Institute of Molecular Physiology, Dortmund.
     company_url: 'https://mpinb.mpg.de/en/'
     icon: ''
     date_start: 2019-01-14
