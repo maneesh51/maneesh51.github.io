@@ -22,7 +22,7 @@ sections:
         about: 'About me...'
         experience: 'Work'
         # education: ''
-        interests: ''
+        interests: 'Research interests'
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
