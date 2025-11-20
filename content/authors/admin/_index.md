@@ -188,7 +188,7 @@ awards:
   #   icon: hero/trophy
   #   summary: |
   #     PhD graduate at International Max Planck Research School for Living Matter from molecules to dynamics(IMPRS-LM), Dortmund.
-  # - title: AI Innovation Grant
+  - title: AI Innovation Grant
     url: https://www.nsf.gov/
     date: '2021-06-15'
     awarder: National Science Foundation
