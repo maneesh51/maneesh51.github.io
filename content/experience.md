@@ -18,10 +18,6 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: False
-  - block: resume-internships
-    content:
-      title: Internships
-      username: admin
   - block: resume-skills
     content:
       title: Skills & Hobbies
