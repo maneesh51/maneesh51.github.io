@@ -182,13 +182,13 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: IMPRS for Living Matter fellow
-    url: https://www.imprs-lm.mpg.de/
-    # date: '2019-01'
-    awarder: January 2019 to Febuary 2023
-    icon: hero/trophy
-    summary: |
-      PhD graduate at International Max Planck Research School for Living Matter from molecules to dynamics(IMPRS-LM), Dortmund.
-  - title: AI Innovation Grant
+  #   url: https://www.imprs-lm.mpg.de/
+  #   date: '2019-01'
+  #   awarder: January 2019 to Febuary 2023
+  #   icon: hero/trophy
+  #   summary: |
+  #     PhD graduate at International Max Planck Research School for Living Matter from molecules to dynamics(IMPRS-LM), Dortmund.
+  # - title: AI Innovation Grant
     url: https://www.nsf.gov/
     date: '2021-06-15'
     awarder: National Science Foundation
@@ -207,4 +207,4 @@ awards:
 I am a Physicist, currently working as a Postdoctoral Scientist at TU Berlin. I am interested in the real-word applications of complex dynamical systems, and therefore pursued Ph.D. at Cellular Computations and Learning group of Dr. Aneta Koseska at Max Planck Institue of Neurobiology of Behavior, Bonn in 2023. My Ph.D. thesis focussed on developing a theory and novel framework to explain biochemical information processing in living cells with transients.
 
 
-Currently, I am situated at the Cyber-Physical Systems in Mechanical Engineering (CPS-ME) deartment of TU Berlin for the DFG priority program SPP 2353 to develop novel design assistants with regard to complex dynamic loads in structural dynamics using dynamically integrated methods of machine learning. Particularly, I am working on reservoir computing approaches for fast and green machine learning.
+Currently, I am situated at the Cyber-Physical Systems in Mechanical Engineering (CPS-ME) department of TU Berlin for the DFG priority program SPP 2353 to develop novel design assistants with regard to complex dynamic loads in structural dynamics using dynamically integrated methods of machine learning. Particularly, I am working on reservoir computing approaches for fast and green machine learning.
