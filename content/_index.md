@@ -20,6 +20,7 @@ sections:
       #   url: uploads/resume.pdf
       headings:
         about: 'About me...'
+        experience: 'Work'
         # education: ''
         interests: ''
     design:
