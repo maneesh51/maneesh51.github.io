@@ -58,23 +58,13 @@ interests:
   - Biochemical Networks
   - Cellular Information Processing
 
-# education:
-#   - area: PhD BioPhysics (Complex Networks and Dynamical systems focus)
-#     institution: Max Planck Institute for Neurobiology of Behavior - caesar, Bonn
-#     icon: ""
-#     date_start: 2019-14-01
-#     date_end: 2023-02-02
-#     summary: |
-#       Thesis on _developing a theory and novel framework to explain biochemical information processing in living cells with transients_. Supervised by Dr.Aneta Koseska.
-#     button:
-#       text: 'Read Thesis'
-#       url: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC'
-#   - area: BS-MS in Physics
-#     institution: Indian Institute of Science Education and Research, Mohali, India
-#     icon: ""
-#     date_start: 2013-08-01
-#     date_end: 2018-05-31
-#     MS thesis: in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
+education:
+  - area: BS-MS in Physics
+    institution: Indian Institute of Science Education and Research, Mohali, India
+    icon: ""
+    date_start: 2013-08-01
+    date_end: 2018-05-31
+    MS thesis: in nonlinear-dynamics and chaos. Supervised by Prof. Sudeshna Sinha. 
 
 work:
   - position: Postdoctoral Scientist
@@ -85,10 +75,10 @@ work:
     date_end: ''
     summary: |
       Leading research on DIRC: Dynamics-Informed Reservoir Computing part of [DFG Priority Program SPP 2353: Daring More Intelligence](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/). The project includes building design assistants based on dynamics-informed machine learning in structural mechanics.
-  - position: PhD BioPhysics (Complex Networks and Dynamical systems focus)
+  - position: PhD in BioPhysics (Complex Networks and Dynamical systems focus)
     company_name: |
       Max Planck Institute for Neurobiology of Behavior - caesar, Bonn. and
-      Max Planck Institute of Molecular Physiology.
+      Max Planck Institute of Molecular Physiology, Dortmund.
     company_url: 'https://mpinb.mpg.de/en/'
     icon: ''
     date_start: 2019-01-14
