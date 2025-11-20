@@ -78,21 +78,21 @@ interests:
 
 work:
   - position: Postdoctoral Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+    company_name: Cyber-Physical Systems in Mechanical Engineering, Technische Universität Berlin
+    company_url: 'https://www.tu.berlin/cpsme'
     icon: ''
-    date_start: 2020-01-01
+    date_start: 2023-04-02
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      Leading research on DIRC: Dynamics-Informed Reservoir Computing part of DFG Priority Program SPP 2353: Daring More Intelligence. The project includes building design assistants based on dynamics-informed machine learning in structural mechanics.
+  - position: PhD BioPhysics (Complex Networks and Dynamical systems focus)
+    company_name: Max Planck Institute for Neurobiology of Behavior - caesar, Bonn. \n Max Planck Institute of Molecular Physiology.
+    company_url: 'https://mpinb.mpg.de/en/'
     icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2019-01-14
+    date_end: 2023-02-02
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.   
+      PhD thesis on _developing a theory and novel framework to explain biochemical information processing in living cells with transients_. Supervised by Dr. Aneta Koseska.   
 
     button:
       text: Download CV

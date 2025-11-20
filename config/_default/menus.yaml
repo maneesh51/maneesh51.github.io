@@ -26,3 +26,6 @@ main:
     url: /#papers
     # url: courses/
     weight: 40
+  # - name: Gallery
+  #   url: /#talks
+  #   weight: 50
