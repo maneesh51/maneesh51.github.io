@@ -33,11 +33,11 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/manish_yadav4
+  # - icon: at-symbol
+  #   url: 'mailto:'
+  #   label: E-mail Me
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Manish-Yadav-16?ev=hdr_xprf
   - icon: brands/github
     url: https://github.com/maneesh51
   - icon: brands/linkedin
@@ -46,8 +46,11 @@ profiles:
     url: https://scholar.google.com/citations?hl=en&user=X6MgHskAAAAJ&view_op=list_works&sortby=pubdate
   - icon: academicons/orcid
     url: https://orcid.org/0009-0005-6148-471X
-  - icon: academicons/researchgate
-    url: https://www.researchgate.net/profile/Manish-Yadav-16?ev=hdr_xprf
+  - icon: brands/x
+    url: https://x.com/manish_yadav4
+  - icon: academicons/cv
+    url:
+  
 
 
 interests:
@@ -195,9 +198,9 @@ awards:
       Recipient of Innovation in Science Pursuit for Inspired Research (INSPIRE) scholarship by Depatment of Science and Technology, Govt. of India.
 ---
 
-I am a Physicist, currently working as a Postdoctoral Scientist at TU Berlin. I am interested in the real-word applications of Nonlinear Dynamics, complex systems and information processing with optimal networks and their generation.
+I am a Physicist, working as a Postdoctoral Scientist at TU Berlin. My research interests include the theory and applications of **Nonlinear Dynamics, complex systems, theory of information processing and generating optimal networks**.
 
-I pursued Ph.D. at Cellular Computations and Learning group of Dr. Aneta Koseska at Max Planck Institue of Neurobiology of Behavior, Bonn in 2023. My Ph.D. thesis focussed on developing a theory and novel framework to explain biochemical information processing in living cells with transients.
+I pursued Ph.D. at [Cellular Computations and Learning group of Dr. Aneta Koseska at Max Planck Institue of Neurobiology of Behavior, Bonn](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) in 2023 and were PhD fellow at [IMPRS-LM, Dortmund](https://www.imprs-lm.mpg.de/). My Ph.D. thesis focussed on developing a theory and novel framework to explain biochemical information processing in living cells with transients. 
 
 
-Currently, I am situated at the Cyber-Physical Systems in Mechanical Engineering (CPS-ME) department of TU Berlin for the DFG priority program SPP 2353 to develop novel design assistants with regard to complex dynamic loads in structural dynamics using dynamically integrated methods of machine learning. Particularly, I am working on reservoir computing approaches for fast and green machine learning.
+Currently, I am situated at the [Cyber-Physical Systems in Mechanical Engineering (CPS-ME) department of TU Berlin](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav) with Prof. M. Stender. Working for the [DFG priority program SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/) to develop novel design assistants with regard to complex dynamic loads in structural dynamics using dynamically integrated methods of machine learning. Particularly, I am working on reservoir computing approaches for fast and green machine learning.
