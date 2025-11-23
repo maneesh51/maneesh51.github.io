@@ -11,7 +11,7 @@ design:
 sections:
   - block: collection
     content:
-      title: Research Projects
+      title: Featured Research & Projects
       text: Here are a selection of selected research projects, libraries and courses that I have worked on over the years.
       filters:
         folders:

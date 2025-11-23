@@ -1,15 +1,16 @@
 ---
-title: scikit-learn
-date: 2023-10-26
+title: AI in Buket of water with Physical Reservoir Computer
+date: 2024-10-26
 links:
   - type: site
     url: https://github.com/scikit-learn/scikit-learn
+featured: true
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Reservoir Computing
+  - ML
+  - Teaching
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+# A Berlin University Alliance (BUA) Course
 
 <!--more-->
