@@ -14,6 +14,11 @@ links:
 
 featured: true
 
+image:
+  caption: Manish Yadav
+  focal_point: ""
+  preview_only: false
+
 tags:
   - Python Library
   - Reservoir computing
