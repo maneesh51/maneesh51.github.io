@@ -31,7 +31,7 @@ tags:
 - Structure-Function
 - Reservoir Computing
 
-featured: false
+featured: true
 
 hugoblox:
   ids:
