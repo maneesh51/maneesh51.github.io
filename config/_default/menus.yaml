@@ -22,6 +22,9 @@ main:
   - name: Projects
     url: projects/
     weight: 30
+  - name: Scientific Outreach
+    url: outreach/
+    weight: 35
   - name: Publications
     url: /#papers
     # url: courses/
