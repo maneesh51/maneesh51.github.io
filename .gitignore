@@ -28,6 +28,9 @@ hugo_stats.json
 # Dependencies
 node_modules/
 
+# Package lock files (using pnpm-lock.yaml)
+package-lock.json
+
 # ============================================================================
 # Environment & Configuration
 # ============================================================================
