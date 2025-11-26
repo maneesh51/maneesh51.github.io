@@ -29,6 +29,9 @@ main:
   - name: Collaborators
     url: collaborators/
     weight: 45
+  - name: Scientific Outreach
+    url: outreach/
+    weight: 47
   # - name: Gallery
   #   url: /#talks
   #   weight: 50
