@@ -1,5 +1,5 @@
 ---
-title: AI in Buket of water with Physical Reservoir Computer
+title: AI in Bucket of water with Physical Reservoir Computer
 date: 2024-10-26
 links:
   - type: site

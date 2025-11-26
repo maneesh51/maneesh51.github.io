@@ -49,6 +49,7 @@ tags:
 
 ## Collaborated projects with Prof. M. Stender:
 
+- [DGF SPP 2353: Dynamics-Informed REservoir Computing (DIRC)](/projects/dfg-spp-2353)
 - [Performance-Dependent Network Evolution (PDNE) for Reservoir Computing](/publications/journal-article-2/)
 
 - [Performance-Dependent Reservoir Pruning (PDRP)]()
