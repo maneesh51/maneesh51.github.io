@@ -19,7 +19,7 @@ publication: "*Chaos*, **35**, 083123 (2025)"
 publication_short: "Chaos **35**, 083123 (2025)"
 
 # Summary. An optional shortened abstract.
-# summary: 
+summary: Task-driven network pruning framework for reservoir computing that reveals pruned networks retain or improve accuracy while uncovering functionally critical subnetworks.
 
 tags:
 - Reservoir Computing
