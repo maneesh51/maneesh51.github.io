@@ -13,6 +13,13 @@
 
 <div class="group relative flex flex-col items-center p-6 bg-white dark:bg-zinc-900 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-zinc-100 dark:border-zinc-800">
   
+  <!-- Country Flag in top right corner -->
+  {{ with $item.Params.country }}
+  <div class="absolute top-3 right-3 text-2xl">
+    {{ . }}
+  </div>
+  {{ end }}
+  
   <!-- Circular Avatar Section -->
   <div class="relative mb-4">
     <div class="w-28 h-28 rounded-full overflow-hidden ring-4 ring-primary-200 dark:ring-primary-800 shadow-lg group-hover:ring-primary-400 dark:group-hover:ring-primary-600 transition-all duration-300">

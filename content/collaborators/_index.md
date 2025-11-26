@@ -11,10 +11,9 @@ design:
 sections:
   - block: markdown
     content:
-      title: Collaboration Circle
+      title: Collaboration Network
       subtitle: ''
-      text: |-
-        Meet my amazing collaborators! Click on a tile to explore projects and publications we've worked on together.
+      text: Meet my amazing collaborators! Click on a tile to explore projects and publications we've worked on together.
     design:
       columns: '1'
   
