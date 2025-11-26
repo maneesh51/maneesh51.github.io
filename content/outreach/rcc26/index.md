@@ -1,6 +1,6 @@
 ---
 title: "Reservoir Computing Conference 2026 (RCC26)"
-date: 2026-01-01
+date: 2025-11-26
 links:
   - name: "Conference Website"
     url: https://www.tu.berlin/en/cpsme/research/conferences/reservoir-computing-conference-rcc-2026
