@@ -49,6 +49,7 @@ sections:
         folders:
           - projects
           - publications
+          - outreach
           
         featured_only: true
     design:
