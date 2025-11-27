@@ -39,7 +39,7 @@ tags:
   </div>
 </div>
 
-## Collaborated projects with Prof. M. Stender:
+## Collaborated projects with Prof. Sudeshna Sinha:
 
 - **2025:** [Performance-Dependent Network Evolution (PDNE) for Reservoir Computing](/publications/journal-article-2/)
 - **2020:** [Asymmetry in the Basin Stability of Oscillation Death States Under Variation of Environment-Oscillator Links](/publications/dynamics-living-systems-2020)
