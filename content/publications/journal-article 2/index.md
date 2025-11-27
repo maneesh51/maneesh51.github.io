@@ -33,6 +33,9 @@ tags:
 
 featured: true
 
+content_meta:
+  trending: true
+
 hugoblox:
   ids:
     # arxiv: 
@@ -63,7 +66,7 @@ links:
 image:
   caption: Manish Yadav
   focal_point: ""
-  preview_only: false
+  preview_only: False
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

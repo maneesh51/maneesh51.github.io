@@ -33,9 +33,9 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  # - icon: at-symbol
-  #   url: 'mailto:'
-  #   label: E-mail Me
+  - icon: at-symbol
+    url: 'mailto:manish.yadav@tu-berlin.de'
+    label: E-mail Me
   - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/Manish-Yadav-16?ev=hdr_xprf
   - icon: brands/github
@@ -46,13 +46,11 @@ profiles:
     url: https://scholar.google.com/citations?hl=en&user=X6MgHskAAAAJ&view_op=list_works&sortby=pubdate
   - icon: academicons/orcid
     url: https://orcid.org/0009-0005-6148-471X
-  - icon: brands/x
-    url: https://x.com/manish_yadav4
+  # - icon: brands/x
+  #   url: https://x.com/manish_yadav4
   - icon: academicons/cv
     url:
   
-
-
 interests:
   - Nonlinear Dynamics
   - Complex Networks
