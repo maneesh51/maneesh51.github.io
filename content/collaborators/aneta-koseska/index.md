@@ -39,7 +39,7 @@ tags:
   </div>
 </div>
 
-## Collaborated projects with Prof. M. Stender:
+## Collaborated projects with Dr. Aneta Koseska:
 
 - **2025:** [Homeorhetic regulation of cellular phenotype](/publications/homeorhetic-regulation-2024). This article is now available on [BioArxiv, read full article here](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:J_g5lzvAfSwC).
 - **2023:** [PhD thesis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC) on building a *Theory of biochemical information processing with transients*.
