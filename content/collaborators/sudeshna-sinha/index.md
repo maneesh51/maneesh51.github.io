@@ -7,7 +7,7 @@ type: collaborator
 name: Prof. Sudeshna Sinha
 organization: Indian Institute of Science Education and Research, Mohali
 role: Professor
-country: 🇮🇳
+country: IN
 
 # Avatar image (place avatar.jpg/png in this folder)
 avatar: avatar.png
@@ -42,6 +42,8 @@ tags:
 ## Collaborated projects with Prof. M. Stender:
 
 - **2025:** [Performance-Dependent Network Evolution (PDNE) for Reservoir Computing](/publications/journal-article-2/)
-- **2018:**
+- **2020:** [Asymmetry in the Basin Stability of Oscillation Death States Under Variation of Environment-Oscillator Links](/publications/dynamics-living-systems-2020)
+- **2018:** [Environment-induced symmetry breaking of the oscillation-death state](/publications/amplitude-chimeras-2018)
+- **2018:** [Revival of oscillations via common environment](/publications/pre-2018-chimera)
 
 ---

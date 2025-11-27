@@ -8,18 +8,11 @@ design:
   spacing: '5rem'
 
 # Page sections
-sections:
-  - block: markdown
-    content:
-      title: Collaboration Network
-      subtitle: ''
-      text: Meet my amazing collaborators! Click on a tile to explore projects and publications we've worked on together.
-    design:
-      columns: '1'
-  
+sections:  
   - block: collection
     content:
-      title: ''
+      title: Collaboration Network
+      text: Meet my amazing collaborators from all over the world.
       filters:
         folders:
           - collaborators
