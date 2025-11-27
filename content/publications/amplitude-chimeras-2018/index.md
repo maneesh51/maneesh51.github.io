@@ -4,8 +4,8 @@ authors:
 - admin
 - Sudeshna Sinha
 
-date: "2017-12-01T00:00:00Z"
-publishDate: "2017-12-01T00:00:00Z"
+date: "2018-01-01T00:00:00Z"
+publishDate: "2018-01-01T00:00:00Z"
 
 publication: "Yadav and Sinha, *Nonlinear Dynamics*, **91**, 2457–2465 (2018)"
 publication_short: "Nonlinear Dyn. **91**, 2457–2465 (2018)"
