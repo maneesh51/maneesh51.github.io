@@ -7,7 +7,7 @@ type: collaborator
 name: Dr. Aneta Koseska
 organization: Cellular computations and learning Group, Max Planck Institute for neurobiology of behavior — caesar, Bonn, Germany
 role: Group Leader
-country: DE
+country: 🇩🇪
 
 # Avatar image (place avatar.jpg/png in this folder)
 avatar: avatar.png

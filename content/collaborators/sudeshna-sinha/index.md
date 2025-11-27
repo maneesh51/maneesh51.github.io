@@ -7,7 +7,7 @@ type: collaborator
 name: Prof. Sudeshna Sinha
 organization: Indian Institute of Science Education and Research, Mohali
 role: Professor
-country: IN
+country: 🇮🇳
 
 # Avatar image (place avatar.jpg/png in this folder)
 avatar: avatar.png
