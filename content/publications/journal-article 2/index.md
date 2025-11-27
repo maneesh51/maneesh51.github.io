@@ -19,8 +19,8 @@ publishDate: "2025-01-29T00:00:00Z"
 # publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Physical Review E*, **111**, 014320 (2025)"
-publication_short: "Phys. Rev. E **111**, 014320 (2025)"
+publication: "Yadav et al. *Physical Review E*, **111**, 014320 (2025)"
+publication_short: "Yadav et al. Phys. Rev. E **111**, 014320 (2025)"
 
 # abstract:
 # Summary. An optional shortened abstract.

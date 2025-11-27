@@ -1,5 +1,5 @@
 ---
-title: "Reservoir Computing Conference 2026 (RCC26)"
+title: "Reservoir Computing Conference 2026 (RCC26), TU Berlin"
 date: 2025-11-26
 links:
   - name: "Conference Website"
@@ -15,7 +15,7 @@ content_meta:
   trending: true
 
 image:
-  caption: Reservoir Computing Conference 2026
+  caption: Reservoir Computing Conference 2026, TU Berlin
   focal_point: ""
   preview_only: false
 

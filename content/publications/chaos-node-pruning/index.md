@@ -12,10 +12,10 @@ publishDate: "2025-08-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+# publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Chaos*, **35**, 083123 (2025)"
+publication: "Yadav et al. *Chaos*, **35**, 083123 (2025)"
 publication_short: "Chaos **35**, 083123 (2025)"
 
 # Summary. An optional shortened abstract.
@@ -37,7 +37,7 @@ links:
   - type: pdf
     url: https://doi.org/10.1063/5.0273535
   - type: code
-    url: https://github.com/maneesh51/PDNE
+    url: https://github.com/Cyber-Physical-Systems-in-Mech-Eng/PrunedRC
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
