@@ -11,6 +11,9 @@ links:
 
 featured: true
 
+content_meta:
+  trending: true
+
 image:
   caption: Reservoir Computing Conference 2026
   focal_point: ""
@@ -23,7 +26,13 @@ tags:
   - Scientific Outreach
 ---
 
+
 The **Reservoir Computing Conference 2026 (RCC26)** is an international conference dedicated to the field of reservoir computing and related machine learning approaches.
+
+## Co-organizing
+I am co-organizing this conference together with [Prof. Merten Stender](/collaborators/merten-stender/) and the CPSME team at TU Berlin.
+
+For more information, please visit the [official conference website](https://www.tu.berlin/en/cpsme/research/conferences/reservoir-computing-conference-rcc-2026).
 
 ## Conference Information
 
@@ -41,11 +50,5 @@ The conference covers a wide range of topics related to reservoir computing, inc
 - Neuromorphic computing
 - Structure-function relationships in reservoir networks
 - Dynamics-informed machine learning
-
-## Co-organizing
-
-I am co-organizing this conference together with [Prof. Merten Stender](/collaborators/merten-stender/) and the CPSME team at TU Berlin.
-
-For more information, please visit the [official conference website](https://www.tu.berlin/en/cpsme/research/conferences/reservoir-computing-conference-rcc-2026).
 
 <!--more-->
