@@ -42,13 +42,12 @@ sections:
   #   design:
   #     columns: '1'
   - block: collection
-    id: papers
+    id: projects
     content:
       title: Featured Research & Projects
       filters:
         folders:
           - projects
-          - publications
           - outreach
           
         featured_only: true
@@ -57,15 +56,28 @@ sections:
       columns: 3
       fill_image: true
   - block: collection
+    id: papers
     content:
-      title: Recent Publications
-      text: ''
+      title: Featured Publication
       filters:
         folders:
           - publications
-        exclude_featured: false
+          
+        featured_only: true
     design:
-      view: citation
+      view: article-grid
+      columns: 3
+      fill_image: true
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ''
+  #     filters:
+  #       folders:
+  #         - publications
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
       
   # - block: collection
   #   id: talks

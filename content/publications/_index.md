@@ -26,8 +26,9 @@ sections:
       show_read_more: false
   - block: collection
     content:
-      title: Complete Publications
+      title: Complete list of publications
       text: ''
+      count: 0
       filters:
         folders:
           - publications
