@@ -23,4 +23,19 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
+  - block: collection
+    content:
+      title: Planned Research & Projects
+      text: Here are a selection of selected research projects, libraries and courses that I have worked on over the years.
+      count: 0
+      filters:
+        folders:
+          - planned_projects
+    design:
+      view: article-grid
+      fill_image: true
+      columns: 1
+      show_date: false
+      show_read_time: false
+      show_read_more: false
 ---

@@ -49,7 +49,6 @@ sections:
         folders:
           - projects
           - outreach
-          
         featured_only: true
     design:
       view: article-grid
@@ -67,6 +66,18 @@ sections:
     design:
       view: article-grid
       columns: 3
+      fill_image: true
+  - block: collection
+    id: projects
+    content:
+      title: Future Projects
+      filters:
+        folders:
+          - planned_projects
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 1
       fill_image: true
   # - block: collection
   #   content:
