@@ -1,6 +1,6 @@
 ---
 title: AI in Bucket of water with Physical Reservoir Computer
-date: 2024-10-26
+date: 2025-10-26
 links:
   - type: site
     url: https://www.tu.berlin/cpsme/studium-lehre/lehrveranstaltungen/x-student-research-group
