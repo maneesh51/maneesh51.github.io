@@ -39,7 +39,7 @@ tags:
   </div>
 </div>
 
-## Collaborated projects with Prof. M. Stender:
+## Collaborated projects with Prof. Shrimali:
 
 - **2025:** [Predicting multi-parametric dynamics of an externally forced oscillator using reservoir computing and minimal data](/publications/reservoir-computing-2024/)
 - **2018:** [Revival of oscillations via common environment](/publications/amplitude-chimeras-2018)
