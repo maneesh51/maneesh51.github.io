@@ -7,7 +7,7 @@ type: collaborator
 name: Prof. Manish Dev Shrimali
 organization: Central University of Rajasthan (CURaj), India
 role: Professor
-country: IN
+country: 🇮🇳
 
 # Avatar image (place avatar.jpg/png in this folder)
 avatar: avatar.png
