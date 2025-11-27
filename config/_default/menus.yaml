@@ -26,8 +26,7 @@ main:
     url: outreach/
     weight: 35
   - name: Publications
-    url: /#papers
-    # url: courses/
+    url: publications/
     weight: 40
   - name: Collaborators
     url: collaborators/

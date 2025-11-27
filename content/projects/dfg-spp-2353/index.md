@@ -17,11 +17,12 @@ image:
   preview_only: false
 
 tags:
+  - Design Assistants
   - DFG
   - Reservoir Computing
   - Machine Learning
   - Structural Mechanics
-  - Design Assistants
+ 
 ---
 
 This project is part of the **[DFG Priority Program SPP 2353: Daring More Intelligence – Design Assistants in Mechanics and Dynamics](https://www.itm.uni-stuttgart.de/en/spp_2353/)**, funded by the German Research Foundation (DFG).
@@ -37,6 +38,8 @@ This project is part of the **[DFG Priority Program SPP 2353: Daring More Intell
 The DIRC (Dynamics-Informed Reservoir Computing) project aims to develop novel design assistants with regard to complex dynamic loads in structural dynamics using dynamically integrated methods of machine learning. The core focus is on reservoir computing approaches for fast and green machine learning.
 
 <!--more-->
+![DIRC Project schematic](featured2.png)
+***Figure 1:** Schematic of the current approach for 'Desiging for Dynamics' versus our proposed approach with RC-based design assitant DIRC that increases efficiency.*
 
 ## Research Goals
 
