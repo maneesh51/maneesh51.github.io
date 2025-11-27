@@ -21,7 +21,7 @@ tags:
 - Machine Learning
 
 featured: true
-
+  
 hugoblox:
   ids:
     doi: 10.1007/s11071-024-10720-w
@@ -31,7 +31,7 @@ links:
     url: https://link.springer.com/article/10.1007/s11071-024-10720-w
 
 image:
-  caption: ""
+  caption: Manish Yadav
   focal_point: ""
   preview_only: false
 

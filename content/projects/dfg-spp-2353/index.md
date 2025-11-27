@@ -12,10 +12,9 @@ links:
 featured: true
 
 image:
-  caption: DFG SPP 2353 - Daring More Intelligence
+  caption: Manish Yadav
   focal_point: ""
   preview_only: false
-
 tags:
   - Design Assistants
   - DFG

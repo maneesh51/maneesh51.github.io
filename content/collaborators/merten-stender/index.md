@@ -7,7 +7,7 @@ type: collaborator
 name: Prof. Merten Stender
 organization: Cyber-Physical Systems in Mechanical Engineering, TU Berlin, Germany
 role: Professor
-country: 🇩🇪
+country: DE
 
 # Avatar image (place avatar.jpg/png in this folder)
 avatar: avatar.webp

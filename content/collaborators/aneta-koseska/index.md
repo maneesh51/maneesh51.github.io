@@ -7,7 +7,7 @@ type: collaborator
 name: Dr. Aneta Koseska
 organization: Cellular computations and learning Group, Max Planck Institute for neurobiology of behavior — caesar, Bonn, Germany
 role: Group Leader
-country: 🇩🇪
+country: DE
 
 # Avatar image (place avatar.jpg/png in this folder)
 avatar: avatar.png
@@ -23,8 +23,8 @@ links:
 # Tags for filtering
 tags:
   - Nonlinear Dynamics
-  - Complex Networks
-  - Network Evolution
+  - Cell Systems
+  - Criticality
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 10px;">
@@ -41,7 +41,7 @@ tags:
 
 ## Collaborated projects with Prof. M. Stender:
 
-- **2025:** [Homeorhetic regulation of cellular phenotype](). This article is now available on [BioArxiv, read full article here](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:J_g5lzvAfSwC).
-- **2023:** [PhD thesis](/publications/journal-article-2/)
-
+- **2025:** [Homeorhetic regulation of cellular phenotype](/publications/homeorhetic-regulation-2024). This article is now available on [BioArxiv, read full article here](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:J_g5lzvAfSwC).
+- **2023:** [PhD thesis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=X6MgHskAAAAJ&sortby=pubdate&citation_for_view=X6MgHskAAAAJ:YFjsv_pBGBYC) on building a *Theory of biochemical information processing with transients*.
+ 
 ---
