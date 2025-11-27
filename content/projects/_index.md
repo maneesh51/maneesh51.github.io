@@ -17,7 +17,7 @@ sections:
         folders:
           - projects
     design:
-      view: compact
+      view: list
       fill_image: true
       columns: 3
       show_date: false
