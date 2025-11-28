@@ -2,6 +2,7 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
+  #   Use `parent` to create dropdown menus by specifying the parent menu item name.
 
 main:
   # - name: Bio
@@ -19,15 +20,61 @@ main:
   - name: Research Experience
     url: experience/
     weight: 20
+  # Projects dropdown
   - name: Projects
     url: projects/
     weight: 30
+  - name: All Projects
+    url: projects/
+    parent: Projects
+    weight: 1
+  - name: Network Structure-Function
+    url: projects/PDNE_Prj/
+    parent: Projects
+    weight: 2
+  - name: DFG SPP 2353 - DIRC
+    url: projects/dfg-spp-2353/
+    parent: Projects
+    weight: 3
+  - name: PyReCo Library
+    url: projects/pytorch/
+    parent: Projects
+    weight: 4
+  - name: Physical Reservoir Computing
+    url: projects/scikit/
+    parent: Projects
+    weight: 5
   - name: Scientific Outreach
     url: outreach/
     weight: 35
+  # Publications dropdown
   - name: Publications
     url: publications/
     weight: 40
+  - name: All Publications
+    url: publications/
+    parent: Publications
+    weight: 1
+  - name: Reservoir Computing (2024)
+    url: publications/reservoir-computing-2024/
+    parent: Publications
+    weight: 2
+  - name: Homeorhetic Regulation (2024)
+    url: publications/homeorhetic-regulation-2024/
+    parent: Publications
+    weight: 3
+  - name: Node Pruning
+    url: publications/chaos-node-pruning/
+    parent: Publications
+    weight: 4
+  - name: Denoising Nonlinear Dynamics
+    url: publications/chaos-escaping-rate-2025/
+    parent: Publications
+    weight: 5
+  - name: Evolution Beats Random Chance
+    url: publications/journal-article 2/
+    parent: Publications
+    weight: 6
   - name: Collaborators
     url: collaborators/
     weight: 45
