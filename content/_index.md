@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: '0rem'
 
 sections:
   - block: resume-biography-3
@@ -26,9 +26,14 @@ sections:
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
+      css_style: 'margin-top: 0 !important; padding-top: 0 !important;'
+      # Reduce spacing
+      spacing:
+        padding: ['0', 0, '0.5rem', 0]
+        margin: ['0', 0, '0', 0]
       # Avatar customization
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: large #medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   # - block: markdown
   #   content:
@@ -70,7 +75,7 @@ sections:
   - block: collection
     id: projects
     content:
-      title: Future Projects
+      title: Upcoming Projects
       filters:
         folders:
           - planned_projects
@@ -79,6 +84,22 @@ sections:
       view: article-grid
       columns: 1
       fill_image: true
+  - block: markdown
+    content:
+      title: '🔬 Research Areas'
+      text: |-
+        <div style="display: flex; flex-wrap: wrap; gap: 0.1rem; justify-content: flex-start;">
+        {{< button url="/tags/machine-learning/" style="outline" size="sm" >}}Machine Learning{{< /button >}}
+        {{< button url="/tags/reservoir-computing/" style="outline" size="sm" >}}Reservoir Computing{{< /button >}}
+        {{< button url="/tags/complex-networks/" style="outline" size="sm" >}}Complex Networks{{< /button >}}
+        {{< button url="/tags/nonlinear-dynamics/" style="outline" size="sm" >}}Nonlinear Dynamics{{< /button >}}
+        {{< button url="/tags/biochemical-networks/" style="outline" size="sm" >}}Biochemical Networks{{< /button >}}
+        {{< button url="/tags/cellular-information-processing/" style="outline" size="sm" >}}Cellular Information Processing{{< /button >}}
+        {{< button url="/tags/explainable-ai/" style="outline" size="sm" >}}Explainable AI{{< /button >}}
+        {{< button url="/tags/bio-inspired-machines/" style="outline" size="sm" >}}Bio-Inspired Machines{{< /button >}}
+        </div>
+    design:
+      columns: '1'
   # - block: collection
   #   content:
   #     title: Recent Publications

@@ -57,6 +57,9 @@ interests:
   - Machine Learning
   - Biochemical Networks
   - Cellular Information Processing
+  - Explainable AI
+  - Reservoir Computing
+  - Bio-Inspired Machines
 
 # education:
 #   - area: BS-MS in Physics
