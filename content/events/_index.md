@@ -1,7 +1,9 @@
 ---
 title: Recent & Upcoming Talks
-cms_exclude: true
+# cms_exclude: true
 #url: talk
+
+type: landing
 
 # View
 # view: card
@@ -27,7 +29,7 @@ sections:
           - events
     design:
       view: article-grid
-      fill_image: false
+      fill_image: true
       columns: 3
       show_date: false
       show_read_time: false
