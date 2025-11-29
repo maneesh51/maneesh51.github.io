@@ -2,35 +2,58 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
+  #   Use `identifier` and `parent` for dropdown menus with subsections
+  #   Subsections appear on hover - no arrow icons shown
 
 main:
-  # - name: Bio
-  #   url: /
-  #   weight: 10
-  # - name: Papers
-  #   url: /#papers
-  #   weight: 11
-  # - name: Talks
-  #   url: /#talks
-  #   weight: 12
-  # - name: News
-  #   url: /#news
-  #   weight: 13
+  # Research Experience (no dropdown)
   - name: Research Experience
     url: experience/
     weight: 20
+
+  # Projects with subsections
   - name: Projects
+    identifier: projects
     url: projects/
     weight: 30
+  - name: Featured Research & Projects
+    url: projects/
+    parent: projects
+    weight: 31
+  - name: Planned Research & Projects
+    url: planned_projects/
+    parent: projects
+    weight: 32
+
+  # Scientific Outreach with subsections
   - name: Scientific Outreach
+    identifier: outreach
     url: outreach/
     weight: 35
+  - name: Conferences Organization
+    url: outreach/
+    parent: outreach
+    weight: 36
+  - name: Talks and Posters
+    url: outreach/
+    parent: outreach
+    weight: 37
+
+  # Publications with subsections
   - name: Publications
+    identifier: publications
     url: publications/
     weight: 40
+  - name: Featured Publications
+    url: publications/
+    parent: publications
+    weight: 41
+  - name: Complete Publications List
+    url: publications/
+    parent: publications
+    weight: 42
+
+  # Collaborators (no dropdown)
   - name: Collaborators
     url: collaborators/
     weight: 45
-  # - name: Gallery
-  #   url: /#talks
-  #   weight: 50
