@@ -2,36 +2,63 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
-  #   Use `identifier` and `parent` for dropdown menus:
-  #     - Parent items need an `identifier` and no `url` (or a url if clickable)
-  #     - Child items need a `parent` matching the parent's `identifier`
+  #   Use `identifier` and `parent` for dropdown menus with subsections
+  #   Subsections appear on hover - no arrow icons shown
 
 main:
-  # Research dropdown
-  - name: Research
-    identifier: research
-    weight: 20
+  # Research Experience (no dropdown)
   - name: Research Experience
     url: experience/
-    parent: research
-    weight: 21
+    weight: 20
+
+  # Projects with subsections
   - name: Projects
+    identifier: projects
     url: projects/
-    parent: research
-    weight: 22
-  # Outputs dropdown
-  - name: Outputs
-    identifier: outputs
     weight: 30
-  - name: Publications
-    url: publications/
-    parent: outputs
+  - name: Featured Research & Projects
+    url: projects/
+    parent: projects
     weight: 31
-  - name: Scientific Outreach
-    url: outreach/
-    parent: outputs
+  - name: Planned Research & Projects
+    url: planned_projects/
+    parent: projects
     weight: 32
-  # Network link (no dropdown)
-  - name: Collaborators
-    url: collaborators/
+
+  # Scientific Outreach with subsections
+  - name: Scientific Outreach
+    identifier: outreach
+    url: outreach/
+    weight: 35
+  - name: Conferences Organization
+    url: outreach/
+    parent: outreach
+    weight: 36
+  - name: Talks and Posters
+    url: outreach/
+    parent: outreach
+    weight: 37
+
+  # Publications with subsections
+  - name: Publications
+    identifier: publications
+    url: publications/
     weight: 40
+  - name: Featured Publications
+    url: publications/
+    parent: publications
+    weight: 41
+  - name: Complete Publications List
+    url: publications/
+    parent: publications
+    weight: 42
+
+  # Collaborators with subsections
+  - name: Collaborators
+    identifier: collaborators
+    url: collaborators/
+    weight: 45
+  - name: Collaboration Network
+    url: collaborators/
+    parent: collaborators
+    weight: 46

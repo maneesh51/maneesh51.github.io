@@ -1,45 +1,38 @@
 /* Custom CSS for dropdown navigation styling */
-/* Makes dropdown buttons look like other navigation buttons with arrow indicators */
+/* Dropdown subsections appear on hover without visible arrow indicators */
 
-/* Style dropdown trigger buttons to match other nav buttons */
-.nav-dropdown > .nav-link[role="button"] {
+/* Hide the dropdown arrow icon completely */
+.nav-dropdown > .nav-link[role="button"] > svg,
+.nav-dropdown > span[role="button"] > svg {
+  display: none !important;
+}
+
+/* Style dropdown trigger to look like regular nav links */
+.nav-dropdown > .nav-link[role="button"],
+.nav-dropdown > span[role="button"] {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: 0.5rem;
+  padding: 0.75rem 0.5rem;
   font-weight: 600;
-  transition: all 0.2s ease-out;
+  transition: color 0.2s ease-out;
 }
 
-/* Hover state for dropdown buttons */
-.nav-dropdown > .nav-link[role="button"]:hover {
-  background-color: rgba(var(--color-primary-100), 0.5);
+/* Hover state for dropdown buttons - same as regular nav links */
+.nav-dropdown > .nav-link[role="button"]:hover,
+.nav-dropdown > span[role="button"]:hover {
+  color: var(--color-primary-700);
 }
 
-.dark .nav-dropdown > .nav-link[role="button"]:hover {
-  background-color: rgba(var(--color-primary-900), 0.3);
-}
-
-/* Style the dropdown arrow icon */
-.nav-dropdown > .nav-link[role="button"] > svg {
-  width: 1rem;
-  height: 1rem;
-  margin-left: 0.125rem;
-  transition: transform 0.2s ease-out;
-}
-
-/* Rotate arrow when dropdown is open/hovered */
-.nav-dropdown:hover > .nav-link[role="button"] > svg,
-.nav-dropdown.active > .nav-link[role="button"] > svg {
-  transform: rotate(180deg);
+.dark .nav-dropdown > .nav-link[role="button"]:hover,
+.dark .nav-dropdown > span[role="button"]:hover {
+  color: var(--color-primary-300);
 }
 
 /* Enhanced dropdown list styling */
 .nav-dropdown-list {
-  margin-top: 0.25rem;
+  margin-top: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
@@ -82,7 +75,8 @@
 
 /* Mobile menu dropdown improvements */
 @media (max-width: 1023px) {
-  .nav-dropdown > .nav-link[role="button"] {
+  .nav-dropdown > .nav-link[role="button"],
+  .nav-dropdown > span[role="button"] {
     width: 100%;
     justify-content: center;
   }
