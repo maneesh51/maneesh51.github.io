@@ -54,6 +54,8 @@ sections:
         folders:
           - projects
           - outreach
+          - events
+
         featured_only: true
     design:
       view: article-grid
