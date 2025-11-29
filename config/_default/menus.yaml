@@ -53,12 +53,7 @@ main:
     parent: publications
     weight: 42
 
-  # Collaborators with subsections
+  # Collaborators (no dropdown)
   - name: Collaborators
-    identifier: collaborators
     url: collaborators/
     weight: 45
-  - name: Collaboration Network
-    url: collaborators/
-    parent: collaborators
-    weight: 46
