@@ -198,10 +198,16 @@ awards:
     summary: |
       Recipient of Innovation in Science Pursuit for Inspired Research (INSPIRE) scholarship by Depatment of Science and Technology, Govt. of India.
 ---
-
+<!-- 
 I am a Physicist, working as a Postdoctoral Scientist at TU Berlin. My research interests include the theory and applications of **Nonlinear Dynamics, complex systems, theory of information processing and generating optimal networks**.
 
 I pursued Ph.D. at [Cellular Computations and Learning group of Dr. Aneta Koseska at Max Planck Institue of Neurobiology of Behavior, Bonn](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) in 2023 and were PhD fellow at [IMPRS-LM, Dortmund](https://www.imprs-lm.mpg.de/). My Ph.D. thesis focussed on developing a theory and novel framework to explain biochemical information processing in living cells with transients. 
 
 
-Currently, I am situated at the [Cyber-Physical Systems in Mechanical Engineering (CPS-ME) department of TU Berlin](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav) with Prof. M. Stender. Working for the [DFG priority program SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/) to develop novel design assistants with regard to complex dynamic loads in structural dynamics using dynamically integrated methods of machine learning. Particularly, I am working on reservoir computing approaches for fast and green machine learning.
+Currently, I am situated at the [Cyber-Physical Systems in Mechanical Engineering (CPS-ME) department of TU Berlin](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav) with Prof. M. Stender. Working for the [DFG priority program SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/) to develop novel design assistants with regard to complex dynamic loads in structural dynamics using dynamically integrated methods of machine learning. Particularly, I am working on reservoir computing approaches for fast and green machine learning. -->
+
+I am a Physicist and Postdoctoral Scientist at TU Berlin, working on nonlinear dynamics, complex systems, information processing theory, and optimal network design.
+
+I completed my Ph.D. in 2023 in the Cellular [Cellular Computations and Learning group of Dr. Aneta Koseska](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) at the Max Planck Institute of Neurobiology of Behavior and was a PhD fellow at [IMPRS-LM, Dortmund](https://www.imprs-lm.mpg.de/). My doctoral work developed a theoretical framework for biochemical information processing in living cells using transient dynamics.
+
+Currently, I work in the [Cyber-Physical Systems in Mechanical Engineering (CPS-ME) department of TU Berlin](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav)  with Prof. M. Stender as part of the [DFG Special Priority Program SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/). My research focuses on reservoir computing for fast and energy-efficient machine learning in structural dynamics.
