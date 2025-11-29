@@ -2,35 +2,36 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
+  #   Use `identifier` and `parent` for dropdown menus:
+  #     - Parent items need an `identifier` and no `url` (or a url if clickable)
+  #     - Child items need a `parent` matching the parent's `identifier`
 
 main:
-  # - name: Bio
-  #   url: /
-  #   weight: 10
-  # - name: Papers
-  #   url: /#papers
-  #   weight: 11
-  # - name: Talks
-  #   url: /#talks
-  #   weight: 12
-  # - name: News
-  #   url: /#news
-  #   weight: 13
+  # Research dropdown
+  - name: Research
+    identifier: research
+    weight: 20
   - name: Research Experience
     url: experience/
-    weight: 20
+    parent: research
+    weight: 21
   - name: Projects
     url: projects/
+    parent: research
+    weight: 22
+  # Outputs dropdown
+  - name: Outputs
+    identifier: outputs
     weight: 30
-  - name: Scientific Outreach
-    url: outreach/
-    weight: 35
   - name: Publications
     url: publications/
-    weight: 40
+    parent: outputs
+    weight: 31
+  - name: Scientific Outreach
+    url: outreach/
+    parent: outputs
+    weight: 32
+  # Network link (no dropdown)
   - name: Collaborators
     url: collaborators/
-    weight: 45
-  # - name: Gallery
-  #   url: /#talks
-  #   weight: 50
+    weight: 40
