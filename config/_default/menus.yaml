@@ -10,8 +10,6 @@ main:
   # - name: Papers
   #   url: /#papers
   #   weight: 11
-  # - name: Talks
-  #   url: /#talks
   #   weight: 12
   # - name: News
   #   url: /#news
@@ -22,9 +20,12 @@ main:
   - name: Projects
     url: projects/
     weight: 30
-  - name: Scientific Outreach
+  - name: Academic Service
     url: outreach/
     weight: 35
+  - name: Talks
+    url: events/
+    weight: 37
   - name: Publications
     url: publications/
     weight: 40
