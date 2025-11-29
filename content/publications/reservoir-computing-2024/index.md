@@ -16,9 +16,9 @@ summary:  This study uses a data-driven approach to investigate how bifurcations
 
 tags:
 - Reservoir Computing
-- Scaling Laws
-- Network Dynamics
 - Machine Learning
+- Complex Networks
+- Nonlinear Dynamics
 
 featured: true
   

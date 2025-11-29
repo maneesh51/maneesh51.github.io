@@ -14,11 +14,9 @@ publication_short: "Biorxiv (2025)"
 summary: Study of homeorhetic regulation mechanisms in cellular phenotype dynamics.
 
 tags:
-- Cellular Dynamics
-- Information Processing
-- Phenotype Regulation
-- Homeorhesis
 - Biochemical Networks
+- Cellular Information Processing
+- Nonlinear Dynamics
 
 featured: true
 

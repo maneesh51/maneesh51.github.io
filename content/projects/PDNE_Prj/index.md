@@ -14,9 +14,9 @@ image:
   preview_only: false
 
 tags:
-  - Network evolution
-  - structure-function
-  - Reservoir computing
+  - Complex Networks
+  - Reservoir Computing
+  - Machine Learning
 ---
 
 This project has been started to understand emergent *structure-function* relationship of evolving networks. 

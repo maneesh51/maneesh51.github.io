@@ -27,9 +27,9 @@ publication_short: "Yadav et al. Phys. Rev. E **111**, 014320 (2025)"
 # summary: 
 
 tags:
-- Network Evolution
-- Structure-Function
+- Complex Networks
 - Reservoir Computing
+- Machine Learning
 
 featured: true
 
