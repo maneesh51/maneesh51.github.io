@@ -1,5 +1,5 @@
 ---
-title: "Keynote Speaker at GACM 2025"
+title: "Invited Keynote Speaker at GACM 2025"
 
 event: The 11th GACM Colloquium on Computational Mechanics for Young Scientists from Academia and Industry at TU Braunschweig, September 21st-24th, 2025.
 event_url: https://www.gacm.de/activities/gacm-colloquia
