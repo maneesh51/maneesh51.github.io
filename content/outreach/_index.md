@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Section spacing
-  spacing: '5rem'
+  spacing: 0rem'
 
 # Page sections
 sections:
@@ -24,6 +24,12 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
+  - block: markdown
+    content:
+      title: Reviewer and Thesis Supervision
+      text: |-
+        - **Bachelors' and Masters' thesis supervision at CPS-ME, TU Berlin 2023-2025** on a range of topics including: optimal machine learning, reservoir structure optimization, image recognition with unstructured neural networks, and neural network pruning.
+        - **Reviewer for prestigious Springer Nature Journals** for a range of interdisciplinary articles.
   # - block: collection
   #   content:
   #     title: Talks and Posters delivered
