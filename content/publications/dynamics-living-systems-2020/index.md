@@ -20,7 +20,7 @@ tags:
 - Nonlinear Dynamics
 - Network
 
-featured: false
+featured: true
 
 hugoblox:
   ids:
