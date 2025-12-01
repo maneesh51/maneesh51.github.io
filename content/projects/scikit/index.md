@@ -4,6 +4,18 @@ date: 2025-10-26
 links:
   - type: site
     url: https://www.tu.berlin/cpsme/studium-lehre/lehrveranstaltungen/x-student-research-group
+  - name: "Wir/Vier Magazine 2024"
+    url: "https://www.tu.berlin/news/wir-vier-die-tu-berlin-in-der-berlin-university-alliance-bua/x-steht-fuer-exzellenz"
+    icon: hero/newspaper
+  - name: "BUA Conference Presentation 2024"
+    url: https://www.berlin-university-alliance.de/commitments/teaching-learning/sturop/conference/impressions/conference-2024/programm/session-a1/a1-2/index.html
+    icon: hero/presentation-chart-line
+  - name: "LinkedIn Discussion"
+    url: "https://www.linkedin.com/posts/manishyadav51_berlinualliance-callforproposals-sturopx-activity-7325443054125903872-s_q5?utm_source=share&utm_medium=member_desktop&rcm=ACoAABfv620B1AZ-TLQoVfc9nihMehaAsj-tpiQ"
+    icon: brands/linkedin
+  - name: "BUA Research Groups"
+    url: "https://www.berlin-university-alliance.de/commitments/teaching-learning/sturop/research-groups/index.html"
+    icon: hero/academic-cap
 featured: true
 content_meta:
   trending: true
@@ -59,7 +71,7 @@ This project explores an unconventional form of AI that uses the natural dynamic
 
 - A working physical Reservoir Computer based on water  
 - Open-source code, hardware documentation, and datasets  
-- Posters and presentations for BUA outreach and scientific events  
+- [BUA Conference Presentation 2024](https://www.berlin-university-alliance.de/commitments/teaching-learning/sturop/conference/impressions/conference-2024/programm/session-a1/a1-2/index.html) - Session A1.2: "Physical Reservoir Computing: AI in a Bucket of Water"  
 
 
 <!--more-->
