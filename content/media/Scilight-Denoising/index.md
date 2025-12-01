@@ -1,5 +1,5 @@
 ---
-title: "Research Featured in AIP Scilight: Optimizing Reservoir Computing for Nonlinear Systems"
+title: "Research Featured in AIP Scilight: Optimizing Reservoir Computing for Noisy Nonlinear Systems"
 subtitle: "Breakthrough in Denoising and Signal Processing with Reservoir Computing Networks"
 date: 2025-12-01
 links:
@@ -35,7 +35,7 @@ tags:
   - Nonlinear Systems
 ---
 
-<!-- **Groundbreaking research on optimizing reservoir computing for studying nonlinear systems has been featured in AIP Scilight, highlighting innovative approaches to signal processing and denoising applications.** -->
+**Research on optimizing reservoir computing for studying noisy nonlinear systems has been featured in AIP Scilight, highlighting innovative approaches to signal processing and denoising applications.**
 
 <!--more-->
 
