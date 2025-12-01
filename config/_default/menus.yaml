@@ -32,6 +32,6 @@ main:
   - name: Collaborators
     url: collaborators/
     weight: 45
-  # - name: Gallery
-  #   url: /#talks
-  #   weight: 50
+  - name: Media
+    url: media/
+    weight: 50

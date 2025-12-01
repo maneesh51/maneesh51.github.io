@@ -1,8 +1,10 @@
 ---
 title: "Denoising and reconstruction of nonlinear dynamics using truncated reservoir computing"
 authors:
+- Omid Sedehi
 - admin
 - Merten Stender
+- Sebastian Oberst
 
 date: "2025-01-01T00:00:00Z"
 publishDate: "2025-01-01T00:00:00Z"
@@ -27,6 +29,9 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1063/5.0273505
+  - name: "AIP Scilight Feature"
+    url: "https://pubs.aip.org/aip/sci/article/2025/36/361107/3361520/Optimizing-reservoir-computing-to-study-nonlinear"
+    icon: hero/newspaper
 
 image:
   caption: ""
