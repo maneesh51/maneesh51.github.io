@@ -35,7 +35,7 @@ tags:
   - Nonlinear Systems
 ---
 
-**Groundbreaking research on optimizing reservoir computing for studying nonlinear systems has been featured in AIP Scilight, highlighting innovative approaches to signal processing and denoising applications.**
+<!-- **Groundbreaking research on optimizing reservoir computing for studying nonlinear systems has been featured in AIP Scilight, highlighting innovative approaches to signal processing and denoising applications.** -->
 
 <!--more-->
 
@@ -61,8 +61,6 @@ Testing on two nonlinear systems (Lorenz attractor and biological neuron models)
 ## Research Resources
 - **AIP Scilight Feature**: [Optimizing reservoir computing to study nonlinear systems](https://pubs.aip.org/aip/sci/article/2025/36/361107/3361520/Optimizing-reservoir-computing-to-study-nonlinear)
 - **Article Page**: [Denoising with Pruned RC](/publications/chaos-escaping-rate-2025/)
-- **Research Group**: Cyber-Physical Systems in Mechanical Engineering, TU Berlin
+- **Research Groups**: Cyber-Physical Systems in Mechanical Engineering, TU Berlin and Uni. of Sydney, Australia.
 
 ---
-
-*This AIP Scilight feature recognizes the significant contributions to reservoir computing optimization and demonstrates the practical impact of theoretical advances in machine learning and signal processing. The work exemplifies the intersection of fundamental research and practical applications in computational science.*
