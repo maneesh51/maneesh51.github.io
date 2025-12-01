@@ -6,7 +6,7 @@ event_url: https://www.systems-biology.org/2022/02/icsb-2022-berlin-in-person.ht
 
 location: Berlin, Germany
 
-summary: Presented a poster title 'Dynamic Signal Processing in Bio-Chemical Networks' from my PhD project of explaing Theory of Information Processing in Bio-Chemical Networks with Transients.
+summary: Gave a mini-talk and poster on 'Dynamic Signal Processing in Bio-Chemical Networks' from my PhD project of explaing Theory of Information Processing in Bio-Chemical Networks with Transients.
 abstract: ''
 
 # Talk start and end times.
@@ -43,4 +43,4 @@ slides: ""
 
 projects: []
 ---
-Presented a poster title *Dynamic Signal Processing in Bio-Chemical Networks* from my PhD project of explaining **Theory of Information Processing in Bio-Chemical Networks with Transients**.
+Gave a mini-talk and presented a poster title *Dynamic Signal Processing in Bio-Chemical Networks* from my PhD project of explaining **Theory of Information Processing in Bio-Chemical Networks with Transients**.

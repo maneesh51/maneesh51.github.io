@@ -37,7 +37,7 @@ sections:
       show_read_more: false
   - block: collection
     content:
-      title: Full list of talks and posters delivered
+      title: Full list of talks and posters
       text: ''
       count: 0
       filters:
