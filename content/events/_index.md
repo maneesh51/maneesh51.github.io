@@ -21,12 +21,13 @@ design:
 sections:
   - block: collection
     content:
-      title: Talks and posters delivered
-      text: ''
+      title: Featured Talks and Posters
+      text: A selection of highlighted talks and poster presentations.
       # Conferences, workshops, and scientific outreach activities organization for *science communication*
       filters:
         folders:
           - events
+        featured_only: true
     design:
       view: article-grid
       fill_image: true
@@ -34,4 +35,15 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
+  - block: collection
+    content:
+      title: Full list of talks and posters delivered
+      text: ''
+      count: 0
+      filters:
+        folders:
+          - events
+        exclude_featured: false
+    design:
+      view: citation
 ---
