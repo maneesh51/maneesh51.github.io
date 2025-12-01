@@ -77,7 +77,7 @@ work:
     date_start: 2023-04-02
     date_end: ''
     summary: |
-      Leading research on DIRC: Dynamics-Informed Reservoir Computing part of [DFG Priority Program SPP 2353: Daring More Intelligence](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/). The project includes building design assistants based on dynamics-informed machine learning in structural mechanics.
+      Leading research on [DIRC: Dynamics-Informed Reservoir Computing](/projects/dfg-spp-2353) part of [DFG Priority Program SPP 2353: Daring More Intelligence](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/). The project includes building design assistants based on dynamics-informed machine learning in structural mechanics.
   - position: PhD in BioPhysics (Complex Networks and Dynamical systems focus)
     company_name: |
       Max Planck Institute for Neurobiology of Behavior - caesar, Bonn. and

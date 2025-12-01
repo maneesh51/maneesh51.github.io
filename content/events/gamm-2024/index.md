@@ -1,5 +1,5 @@
 ---
-title: "GAMM 2024"
+title: "GAMM 2024, Magdeburg"
 
 event: 94th Annual Meeting of the International Association of Applied Mathematics and Mechanics (GAMM)
 event_url: https://jahrestagung.gamm-ev.de/annual-meeting-2024/
