@@ -9,6 +9,7 @@ design:
   spacing: '0rem'
 
 sections:
+  
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -46,6 +47,50 @@ sections:
 
   #   design:
   #     columns: '1'
+
+  - block: markdown
+    id: news
+    content:
+      title: '📰 Latest News'
+      text: |-
+        <div class="news-container" style="max-height: 280px; overflow-y: auto; padding-right: 0px; border-left: -3px solid var(--primary); padding-left: 0px;">
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 0px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
+              <span style="color: var(--muted-foreground); font-size: 0.85rem;">Sep 2025</span><br>
+              🎤 Invited as <strong>Keynote Speaker</strong> at the <a href="/events/gacm-2025/">11th GACM Colloquium</a> in TU Braunschweig to present on <em>Foundations, Theory and Applications of Reservoir Computing</em>.
+            </li>
+            <li style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
+              <span style="color: var(--muted-foreground); font-size: 0.85rem;">Aug 2025</span><br>
+              📄 New paper published in <em>Chaos</em>: <a href="/publications/chaos-node-pruning/">Task-specific node pruning enhances computational efficiency of reservoir computing networks</a>.
+            </li>
+            <li style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
+              <span style="color: var(--muted-foreground); font-size: 0.85rem;">Jun 2025</span><br>
+              📊 Poster presentation at the <a href="/events/pks-workshop-2025/">PKS Workshop on Large-scale Dynamical Systems</a> at MPI Dresden on <em>Efficient Network Generation with Performance-Dependent Evolution</em>.
+            </li>
+            <li style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
+              <span style="color: var(--muted-foreground); font-size: 0.85rem;">Dec 2024</span><br>
+              📄 New paper in <em>Nonlinear Dynamics</em>: <a href="/publications/reservoir-computing-2024/">Predicting multi-parametric dynamics using reservoir computing and minimal data</a>.
+            </li>
+            <li style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
+              <span style="color: var(--muted-foreground); font-size: 0.85rem;">Oct 2024</span><br>
+              🚀 Launched <a href="/projects/pytorch/">PyReCo</a> - a Python library for Reservoir Computing now available on PyPI.
+            </li>
+            <li style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
+              <span style="color: var(--muted-foreground); font-size: 0.85rem;">Mar 2024</span><br>
+              🎤 Presented at the <a href="/events/gamm-2024/">94th GAMM Annual Meeting</a> in Magdeburg, Germany.
+            </li>
+            <li style="margin-bottom: 0; padding-bottom: 0; border-bottom: none;">
+              <span style="color: var(--muted-foreground); font-size: 0.85rem;">Apr 2023</span><br>
+              🔬 Joined the <a href="/projects/dfg-spp-2353/">DFG SPP 2353 Project</a> on Dynamics-Informed Reservoir Computing at TU Berlin.
+            </li>
+          </ul>
+        </div>
+    design:
+      columns: '0'
+      spacing:
+        padding: ['0.0rem', 0, '0.0rem', 0]
+
+
   - block: collection
     id: projects
     content:
@@ -61,6 +106,9 @@ sections:
       view: article-grid
       columns: 3
       fill_image: true
+      spacing:
+        padding: ['0.0rem', 1, '0.0rem', 0]
+
   - block: collection
     id: papers
     content:
@@ -74,6 +122,8 @@ sections:
       view: article-grid
       columns: 3
       fill_image: true
+      spacing:
+        padding: ['0.0rem', 0, '0.0rem', 0]
   - block: collection
     id: projects
     content:
@@ -86,6 +136,8 @@ sections:
       view: article-grid
       columns: 1
       fill_image: true
+      spacing:
+        padding: ['0.0rem', 0, '0.0rem', 0]
   - block: markdown
     content:
       title: '🔬 Research Areas'
@@ -102,6 +154,8 @@ sections:
         </div>
     design:
       columns: '1'
+      spacing:
+        padding: ['0.0rem', 0, '0.0rem', 0]
   # - block: collection
   #   content:
   #     title: Recent Publications
