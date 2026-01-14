@@ -10,7 +10,7 @@ date: "2025-06-01T00:00:00Z"
 publishDate: "2025-06-01T00:00:00Z"
 
 publication: "Henrik Ebel et al., *Data-Centric Engineering* (2025)"
-publication_short: "*Data-Centric Eng.*, ** 6:e23**, (2025)"
+publication_short: "*Data-Centric Eng.*, **6:e23**, (2025)"
 
 summary: Comprehensive analysis of data publishing practices in mechanics and dynamics, with guidelines and examples from engineering design.
 
