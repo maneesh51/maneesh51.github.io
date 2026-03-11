@@ -56,6 +56,10 @@ sections:
         <div class="news-container" style="max-height: 280px; overflow-y: auto; padding-right: 0px; border-left: -3px solid var(--primary); padding-left: 0px; font-size: 0.85rem;">
           <ul style="list-style: none; padding: 0; margin: 0;">
             <li style="margin-bottom: 0px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
+              <span style="color: var(--muted-foreground); font-size: 0.75rem;">10 Mar 2026</span><br>
+              📄 New article published in <em>GAMMAS</em>: <a href="/publications/gammas-image-classification-2026/">Reservoir Computing for image classification</a>.
+            </li>
+            <li style="margin-bottom: 0px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
               <span style="color: var(--muted-foreground); font-size: 0.75rem;">10 Dec 2025</span><br>
               🎤 Presented “Hierarchical Reasoning Model„ By Sapient Intelligence, Singapore, 2025 in <strong>ML-Journal Club</strong> at CPS-ME, TU Berlin</em>.
             </li>
