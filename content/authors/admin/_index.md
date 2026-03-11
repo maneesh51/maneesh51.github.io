@@ -34,8 +34,11 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:manish.yadav@tu-berlin.de'
+    url: 'mailto:manish.yadav.work@outlook.com'
     label: E-mail Me
+  - icon: hero/academic-cap
+    url: https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav
+    label: TU Berlin Profile
   - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/Manish-Yadav-16?ev=hdr_xprf
   - icon: brands/github
@@ -72,15 +75,15 @@ interests:
 work:
   - position: Postdoctoral Scientist
     company_name: Cyber-Physical Systems in Mechanical Engineering, Technische Universität Berlin 
-    company_url: 'https://www.tu.berlin/cpsme'
+    company_url: 'https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav'
     icon: ''
     date_start: 2023-04-02
     date_end: ''
     summary: |
-      Leading research on [DIRC: Dynamics-Informed Reservoir Computing](/projects/dfg-spp-2353/) for [DFG Priority Program SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/):
+      at [CPS-ME](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav) leading research on [DIRC](/projects/dfg-spp-2353/): Dynamics-Informed Reservoir Computing for [DFG SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/):
 
       - [PyReCo](/projects/pytorch/) - Designed and released the open-source [PyReCo library](https://pypi.org/project/pyreco/).
-      - **Node Pruning** - Algorithm that reduces network size while improving performance. Publications in [*Chaos* 2025](/publications/). Featured in [AIP Scilight](/media/Scilight-Denoising/).
+      - **Node Pruning** - Algorithm that reduces network size while improving performance. Publications in [*Chaos* 2025](/publications/). Featured in [AIP Scilight](/media/ScilightDenoising/).
       - [PDNE](/projects/PDNE_Prj/) - Evolutionarily-guided efficient & sparse network framework outperforming large ML architectures ([*PRE* 2025](/publications/journal-article-2/)).
       - **Digital Twins** - for predicting nonlinear oscillator bifurcations and chaos from minimal sensor data ([*Nonlinear Dyn.* 2024](/publications/reservoir-computing-2024/)).
       - [**Physical ML Device**](/projects/scikit/) - running on water ripples with a Raspberry Pi readout layer for energy-efficient, hardware-native computation. 
@@ -217,6 +220,6 @@ I develop bio-inspired machine learning systems and physics-informed digital twi
 
 My work spans **Liquid State Machines/Reservoir Computing** (a biologically-inspired ML paradigm ideal for edge deployment and structural monitoring), **optimal network design** (how topology shapes learning), and **nonlinear dynamics** (bifurcation-aware modeling with minimal data).
 
-At TU Berlin, I develop dynamics-informed learning systems for structural mechanics as part of [DFG SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/). Previously, I built a theoretical framework for biochemical information processing at the [MPI, Bonn](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) — work that now informs my approach to bio-inspired and neuromorphic ML architectures.
+At [TU Berlin](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav), I develop dynamics-informed learning systems for structural mechanics as part of [DFG SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/). Previously, I built a theoretical framework for biochemical information processing at the [MPI, Bonn](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) — work that now informs my approach to bio-inspired and neuromorphic ML architectures.
 
 I'm interested in 🤝collaborations and roles at the intersection of efficient AI, nature-inspired neuromorphic computing, and physics-constrained learning.
