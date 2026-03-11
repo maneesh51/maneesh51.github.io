@@ -1,12 +1,12 @@
 ---
-title: "Workshop on Unifying Perspectives on Large-scale Dynamical Systems 2025"
+title: "Unifying the Principles of Learning with and without Brains 2025"
 
-event: Workshop on Unifying Perspectives on Large-scale Dynamical Systems
+event: Workshop on learning beyond brain-based systems
 event_url: https://www.pks.mpg.de/uplwwb25
 
 location: Max Planck Institute for the Physics of Complex Systems, Dresden, Germany
 
-summary: Poster presentation on 'Efficient Network Generation with Performance-Dependent Evolution' at the PKS workshop on large-scale dynamical systems.
+summary: Poster presentation on 'How to build compact and efficient networks for enhanced information processing capabilities? 
 abstract: ''
 
 # Talk start and end times.
@@ -43,4 +43,4 @@ slides: ""
 projects: []
 ---
 
-Poster presentation on **'Efficient Network Generation with Performance-Dependent Evolution'** presented by M. Yadav at the Workshop on Unifying Perspectives on Large-scale Dynamical Systems at the Max Planck Institute for the Physics of Complex Systems, Dresden.
+Poster presentation on **'Efficient Network Generation with Performance-Dependent Evolution'** presented by M. Yadav at the Workshop on Unifying the Principles of Learning with and without Brains 2025 at the Max Planck Institute for the Physics of Complex Systems, Dresden.

@@ -61,7 +61,7 @@ sections:
             </li>
             <li style="margin-bottom: 0px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
               <span style="color: var(--muted-foreground); font-size: 0.75rem;">10 Dec 2025</span><br>
-              🎤 Presented “Hierarchical Reasoning Model„ By Sapient Intelligence, Singapore, 2025 in <strong>ML-Journal Club</strong> at CPS-ME, TU Berlin</em>.
+              🎤 Presented “Hierarchical Reasoning Model„ By Sapient Intelligence, Singapore, 2025 in <strong><a href="https://www.tu.berlin/cpsme/forschung/konferenzen/journal-club">ML-Journal Club</a></strong> at CPS-ME, TU Berlin</em>.
             </li>
             <li style="margin-bottom: 0px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
               <span style="color: var(--muted-foreground); font-size: 0.75rem;">Sep 2025</span><br>

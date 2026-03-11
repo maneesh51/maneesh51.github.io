@@ -49,7 +49,7 @@ profiles:
   # - icon: brands/x
   #   url: https://x.com/manish_yadav4
   - icon: academicons/cv
-    url:
+    url: static/uploads/resume.pdf
   
 interests:
   - Nonlinear Dynamics
