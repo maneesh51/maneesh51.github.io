@@ -83,7 +83,7 @@ work:
       at [CPS-ME](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav) leading research on [DIRC](/projects/dfg-spp-2353/): Dynamics-Informed Reservoir Computing for [DFG SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/):
 
       - [PyReCo](/projects/pytorch/) - Designed and released the open-source [PyReCo library](https://pypi.org/project/pyreco/).
-      - **Node Pruning** - Algorithm that reduces network size while improving performance. Publications in [*Chaos* 2025](/publications/). Featured in [AIP Scilight](/media/ScilightDenoising/).
+      - **Node Pruning** - Algorithm that reduces network size while improving performance. Publications in [*Chaos* 2025](/publications/). Featured in [AIP Scilight](/media/scilightdenoising/).
       - [PDNE](/projects/PDNE_Prj/) - Evolutionarily-guided efficient & sparse network framework outperforming large ML architectures ([*PRE* 2025](/publications/journal-article-2/)).
       - **Digital Twins** - for predicting nonlinear oscillator bifurcations and chaos from minimal sensor data ([*Nonlinear Dyn.* 2024](/publications/reservoir-computing-2024/)).
       - [**Physical ML Device**](/projects/scikit/) - running on water ripples with a Raspberry Pi readout layer for energy-efficient, hardware-native computation. 
