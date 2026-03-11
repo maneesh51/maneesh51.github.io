@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Postdoctoral Scientist
+role: Physicist & ML Researcher, Postdoctoral Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -77,7 +77,14 @@ work:
     date_start: 2023-04-02
     date_end: ''
     summary: |
-      Leading research on [DIRC: Dynamics-Informed Reservoir Computing](/projects/dfg-spp-2353) part of [DFG Priority Program SPP 2353: Daring More Intelligence](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/). The project includes building design assistants based on dynamics-informed machine learning in structural mechanics.
+      Leading research on [DIRC: Dynamics-Informed Reservoir Computing](/projects/dfg-spp-2353/) for [DFG Priority Program SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/projects_phase1/stender/):
+
+      - [PyReCo](/projects/pytorch/) - Designed and released the open-source [PyReCo library](https://pypi.org/project/pyreco/).
+      - **Node Pruning** - Algorithm that reduces network size while improving performance. Publications in [*Chaos* 2025](/publications/). Featured in [AIP Scilight](/media/Scilight-Denoising/).
+      - [PDNE](/projects/PDNE_Prj/) - Evolutionarily-guided efficient & sparse network framework outperforming large ML architectures ([*PRE* 2025](/publications/journal-article-2/)).
+      - **Digital Twins** - for predicting nonlinear oscillator bifurcations and chaos from minimal sensor data ([*Nonlinear Dyn.* 2024](/publications/reservoir-computing-2024/)).
+      - [**Physical ML Device**](/projects/scikit/) - running on water ripples with a Raspberry Pi readout layer for energy-efficient, hardware-native computation. 
+      - **Supervised** 10+ theses in ML. **Invited keynote** at [GACM 2025](/events/gacm-2025/). **Co-organizing** [RCC26](/outreach/rcc26/), Berlin.
   - position: PhD in BioPhysics (Complex Networks and Dynamical systems focus)
     company_name: |
       Max Planck Institute for Neurobiology of Behavior - caesar, Bonn. and
@@ -114,7 +121,7 @@ work:
     date_start: 2016-05-01
     date_end: 2016-07-01
     summary: |
-      on ‘Surface Acoustic Wave (SAW) devices’ with Prof. Ananth Venkateshan   
+      Cleanroom fabrication of **Surface Acoustic Wave (SAW)** devices on LiNbO3 and silicon substrates: substrate preparation (solvent cleaning protocols), chip layout design (**GDSII**), and pattern transfer via **electron beam lithography (EBL)**. Hands-on experience with analog piezoelectric computing substrates directly relevant to **neuromorphic hardware fabrication**.
   - position: Research Internship-1
     company_name: Central University of Rajasthan, India
     company_url: ''
@@ -206,8 +213,10 @@ I completed my Ph.D. in 2023 in the Cellular [Cellular Computations and Learning
 
 Currently, I work in the [Cyber-Physical Systems in Mechanical Engineering (CPS-ME) department of TU Berlin](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav)  with Prof. M. Stender as part of the [DFG Special Priority Program SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/). My research focuses on reservoir computing for fast and energy-efficient machine learning in structural dynamics. -->
 
-I build physics-informed machine learning systems that learn fast, generalize well, and run efficiently — inspired by how the brain and living cells process information.
-My work spans Liquid State Machines and Reservoir Computing (a biologically-inspired ML paradigm ideal for edge deployment and structural monitoring), optimal network design (how topology shapes computational capacity), and nonlinear dynamics (bifurcation-aware modeling with minimal data).
+I develop bio-inspired machine learning systems and physics-informed digital twins for engineering applications — designed to learn fast, generalize well, and run efficiently.
 
-At TU Berlin, I develop dynamics-informed learning systems for structural mechanics as part of [DFG SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/). Previously, I built a theoretical framework for biochemical information processing at the [Max Planck Institute, Bonn](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) — work that now informs my approach to bio-inspired and neuromorphic ML architectures.
-I'm interested in collaborations and roles at the intersection of efficient AI, nature-inspired neuromorphic computing, and physics-constrained learning.
+My work spans **Liquid State Machines/Reservoir Computing** (a biologically-inspired ML paradigm ideal for edge deployment and structural monitoring), **optimal network design** (how topology shapes learning), and **nonlinear dynamics** (bifurcation-aware modeling with minimal data).
+
+At TU Berlin, I develop dynamics-informed learning systems for structural mechanics as part of [DFG SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/). Previously, I built a theoretical framework for biochemical information processing at the [MPI, Bonn](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) — work that now informs my approach to bio-inspired and neuromorphic ML architectures.
+
+I'm interested in 🤝collaborations and roles at the intersection of efficient AI, nature-inspired neuromorphic computing, and physics-constrained learning.

@@ -26,9 +26,7 @@ hugoblox:
 
 links:
   - type: pdf
-    url: https://www.bibliothek.tu-chemnitz.de/ojs/index.php/GAMMAS/article/view/922/826
-  - type: url
-    url: https://doi.org/10.14464/gammas.v8i1.922
+    url: https://www.bibliothek.tu-chemnitz.de/ojs/index.php/GAMMAS/issue/view/88
 
 image:
   caption: ""
@@ -42,4 +40,4 @@ slides: ""
 
 This article presents a reservoir computing approach for image classification and appears in **GAMMAS 2026**.
 
-**Read full article here:** M. Ghorbani, M. Yadav, M. Stender, [*Reservoir Computing for image classification*](https://doi.org/10.14464/gammas.v8i1.922)
+**Read full article here:** M. Ghorbani, M. Yadav, M. Stender, [*Reservoir Computing for image classification*](https://www.bibliothek.tu-chemnitz.de/ojs/index.php/GAMMAS/issue/view/88)
