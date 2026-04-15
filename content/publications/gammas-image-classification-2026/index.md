@@ -20,6 +20,12 @@ tags:
 
 featured: false
 
+content_meta:
+  trending: true
+  new: true
+  preprint: false
+
+
 hugoblox:
   ids:
     doi: 10.14464/gammas.v8i1.922
