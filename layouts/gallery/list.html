@@ -158,13 +158,15 @@
 
   {{ $images := slice }}
 
-  {{/* Collect featured images and all page-bundle images from content pages */}}
+  {{/* Collect images only from pages explicitly marked with show_in_gallery: true */}}
   {{ range .Site.Pages }}
     {{ $page := . }}
-    {{ range .Resources.ByType "image" }}
-      {{ $name := .Name }}
-      {{ if not (findRE "(?i)(avatar|icon|logo|sharing)" $name) }}
-        {{ $images = $images | append (dict "src" .RelPermalink "title" $page.Title "link" $page.RelPermalink "width" .Width "height" .Height) }}
+    {{ if $page.Params.show_in_gallery }}
+      {{ range .Resources.ByType "image" }}
+        {{ $name := .Name }}
+        {{ if not (findRE "(?i)(avatar|icon|logo|sharing)" $name) }}
+          {{ $images = $images | append (dict "src" .RelPermalink "title" $page.Title "link" $page.RelPermalink "width" .Width "height" .Height) }}
+        {{ end }}
       {{ end }}
     {{ end }}
   {{ end }}

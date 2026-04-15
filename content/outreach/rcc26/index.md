@@ -10,6 +10,7 @@ links:
     icon: hero/academic-cap
 
 featured: true
+show_in_gallery: true
 
 content_meta:
   trending: true
