@@ -56,6 +56,10 @@ sections:
         <div class="news-container" style="max-height: 280px; overflow-y: auto; padding-right: 0px; border-left: -3px solid var(--primary); padding-left: 0px; font-size: 0.85rem;">
           <ul style="list-style: none; padding: 0; margin: 0;">
             <li style="margin-bottom: 0px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
+              <span style="color: var(--muted-foreground); font-size: 0.75rem;">27 Mar 2026</span><br>
+              🎤 Delivered a talk at <a href="/outreach/rcc26/#rcc26-talk">RCC26 conference</a>: <em>Understanding Structure-Function Relationships through PerformanceDependent Network Evolution</em>.
+            </li>
+            <li style="margin-bottom: 0px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
               <span style="color: var(--muted-foreground); font-size: 0.75rem;">13 Mar 2026</span><br>
               🆕📄 New preprint on arXiv: <a href="/publications/emergent-ei-structure-2026/">Emergent E-I Structure in Performance-Evolved Reservoir Networks of Neuronal Population Dynamics</a>.
             </li>
@@ -218,18 +222,18 @@ sections:
   #     spacing:
   #       padding: [0, 0, 0, 0]
 
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
-    content:
-      title: 👉 Build your own academic website like this
-      text: |-
+  # - block: cta-card
+  #   demo: true # Only display this section in the Hugo Blox Builder demo site
+  #   content:
+  #     title: 👉 Build your own academic website like this
+  #     text: |-
         
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: 'bg-primary-300 dark:bg-primary-700'
-        css_style: ''
+  #     button:
+  #       text: Get Started
+  #       url: https://hugoblox.com/templates/
+  #   design:
+  #     card:
+  #       # Card background color (CSS class)
+  #       css_class: 'bg-primary-300 dark:bg-primary-700'
+  #       css_style: ''
 ---

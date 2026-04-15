@@ -30,6 +30,11 @@ tags:
 featured: true
 show_in_gallery: true
 
+resources:
+  - src: featured.jpg
+    params:
+      show_in_gallery: true
+
 image:
   caption: 'ICSB 2022, Berlin'
   focal_point: Center

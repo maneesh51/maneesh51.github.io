@@ -17,6 +17,14 @@ links:
 
 featured: true
 
+resources:
+  - src: featured.png
+    params:
+      show_in_gallery: true
+  - src: NARMA10_N-Density_fast.gif
+    params:
+      show_in_gallery: false
+
 content_meta:
   trending: false
   new: true
