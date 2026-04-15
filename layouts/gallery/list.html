@@ -1,0 +1,289 @@
+{{ define "main" }}
+<style>
+  /* Gallery Grid */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    background: #f4f4f5;
+    aspect-ratio: 4 / 3;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .dark .gallery-item {
+    background: #27272a;
+  }
+
+  .gallery-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+
+  .gallery-item-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.65));
+    color: #fff;
+    font-size: 0.78rem;
+    padding: 1.25rem 0.75rem 0.5rem;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+  }
+
+  .gallery-item:hover .gallery-item-caption {
+    opacity: 1;
+  }
+
+  /* Lightbox */
+  #gallery-lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.92);
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  #gallery-lightbox.open {
+    display: flex;
+  }
+
+  #gallery-lightbox-inner {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #gallery-lightbox-img {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+
+  #gallery-lightbox-caption {
+    color: #e4e4e7;
+    font-size: 0.875rem;
+    margin-top: 0.75rem;
+    text-align: center;
+    max-width: 600px;
+  }
+
+  #gallery-lightbox-close {
+    position: absolute;
+    top: -2.5rem;
+    right: 0;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    transition: background 0.15s;
+  }
+
+  #gallery-lightbox-close:hover {
+    background: rgba(255,255,255,0.15);
+  }
+
+  #gallery-lightbox-prev,
+  #gallery-lightbox-next {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    transition: background 0.15s;
+    z-index: 10000;
+  }
+
+  #gallery-lightbox-prev { left: 1rem; }
+  #gallery-lightbox-next { right: 1rem; }
+
+  #gallery-lightbox-prev:hover,
+  #gallery-lightbox-next:hover {
+    background: rgba(255,255,255,0.25);
+  }
+
+  @media (max-width: 640px) {
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 0.5rem;
+    }
+    #gallery-lightbox-prev { left: 0.25rem; }
+    #gallery-lightbox-next { right: 0.25rem; }
+  }
+</style>
+
+<div class="container mx-auto px-4 py-12" style="max-width: 1280px;">
+  <h1 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 0.5rem;">{{ .Title }}</h1>
+  <p style="color: #71717a; margin-bottom: 2rem;">All images from across the site. Click any image to enlarge.</p>
+
+  {{ $images := slice }}
+
+  {{/* Collect featured images and all page-bundle images from content pages */}}
+  {{ range .Site.Pages }}
+    {{ $page := . }}
+    {{ range .Resources.ByType "image" }}
+      {{ $name := .Name }}
+      {{ if not (findRE "(?i)(avatar|icon|logo|sharing)" $name) }}
+        {{ $images = $images | append (dict "src" .RelPermalink "title" $page.Title "link" $page.RelPermalink "width" .Width "height" .Height) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ if gt (len $images) 0 }}
+    <div class="gallery-grid" id="gallery-grid">
+      {{ range $i, $img := $images }}
+        <div class="gallery-item"
+             data-index="{{ $i }}"
+             data-src="{{ $img.src }}"
+             data-caption="{{ $img.title }}"
+             tabindex="0"
+             role="button"
+             aria-label="View image: {{ $img.title }}">
+          <img src="{{ $img.src }}"
+               alt="{{ $img.title }}"
+               loading="{{ if lt $i 6 }}eager{{ else }}lazy{{ end }}"
+               decoding="async"
+               width="{{ $img.width }}"
+               height="{{ $img.height }}">
+          <div class="gallery-item-caption">{{ $img.title }}</div>
+        </div>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p style="color: #71717a;">No images found yet. Add images to your content pages and they will appear here automatically.</p>
+  {{ end }}
+</div>
+
+<!-- Lightbox -->
+<div id="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+  <div id="gallery-lightbox-inner">
+    <button id="gallery-lightbox-close" aria-label="Close lightbox">&times;</button>
+    <img id="gallery-lightbox-img" src="" alt="">
+    <p id="gallery-lightbox-caption"></p>
+  </div>
+  <button id="gallery-lightbox-prev" aria-label="Previous image">&#8592;</button>
+  <button id="gallery-lightbox-next" aria-label="Next image">&#8594;</button>
+</div>
+
+<script>
+  (function () {
+    const items = Array.from(document.querySelectorAll('.gallery-item'));
+    const lightbox = document.getElementById('gallery-lightbox');
+    const lbImg = document.getElementById('gallery-lightbox-img');
+    const lbCaption = document.getElementById('gallery-lightbox-caption');
+    const lbClose = document.getElementById('gallery-lightbox-close');
+    const lbPrev = document.getElementById('gallery-lightbox-prev');
+    const lbNext = document.getElementById('gallery-lightbox-next');
+    let current = 0;
+
+    function openLightbox(index) {
+      current = index;
+      const item = items[index];
+      lbImg.src = item.dataset.src;
+      lbImg.alt = item.dataset.caption || '';
+      lbCaption.textContent = item.dataset.caption || '';
+      lightbox.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      lbClose.focus();
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('open');
+      document.body.style.overflow = '';
+      if (items[current]) items[current].focus();
+    }
+
+    function showPrev() {
+      current = (current - 1 + items.length) % items.length;
+      openLightbox(current);
+    }
+
+    function showNext() {
+      current = (current + 1) % items.length;
+      openLightbox(current);
+    }
+
+    const focusableSelectors = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+
+    function trapFocus(e) {
+      if (!lightbox.classList.contains('open')) return;
+      const focusable = Array.from(lightbox.querySelectorAll(focusableSelectors)).filter(function (el) {
+        return !el.disabled && el.offsetParent !== null;
+      });
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.key === 'Tab') {
+        if (e.shiftKey) {
+          if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+        } else {
+          if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+      }
+    }
+
+    items.forEach(function (item, i) {
+      item.addEventListener('click', function () { openLightbox(i); });
+      item.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(i); }
+      });
+    });
+
+    lbClose.addEventListener('click', closeLightbox);
+    lbPrev.addEventListener('click', showPrev);
+    lbNext.addEventListener('click', showNext);
+
+    lightbox.addEventListener('click', function (e) {
+      if (e.target === lightbox) closeLightbox();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (!lightbox.classList.contains('open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') showPrev();
+      if (e.key === 'ArrowRight') showNext();
+      trapFocus(e);
+    });
+  })();
+</script>
+{{ end }}
