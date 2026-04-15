@@ -27,6 +27,7 @@ tags:
 
 # Is this a featured talk? (true/false)
 featured: true
+show_in_gallery: true
 
 image:
   caption: 'GAMM 2024, Magdeburg'

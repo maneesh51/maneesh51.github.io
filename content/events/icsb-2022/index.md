@@ -28,6 +28,7 @@ tags:
 
 # Is this a featured talk? (true/false)
 featured: true
+show_in_gallery: true
 
 image:
   caption: 'ICSB 2022, Berlin'

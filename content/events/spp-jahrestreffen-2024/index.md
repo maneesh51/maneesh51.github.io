@@ -29,6 +29,7 @@ tags:
 
 # Is this a featured talk? (true/false)
 featured: false
+show_in_gallery: true
 
 image:
   caption: 'DFG SPP 2353 Jahrestreffen 2024, Bergisch Gladbach'
