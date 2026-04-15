@@ -29,6 +29,11 @@ tags:
 featured: true
 show_in_gallery: true
 
+resources:
+  - src: featured.jpg
+    params:
+      show_in_gallery: true
+
 image:
   caption: 'DFG SPP Doktorandtreffen 2024, Mainz'
   focal_point: Center

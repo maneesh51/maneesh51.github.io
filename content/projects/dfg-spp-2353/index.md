@@ -11,6 +11,14 @@ links:
 
 featured: true
 
+resources:
+  - src: featured.png
+    params:
+      show_in_gallery: true
+  - src: featured2.png
+    params:
+      show_in_gallery: false
+
 image:
   caption: Manish Yadav
   focal_point: ""

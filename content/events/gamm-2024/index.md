@@ -29,6 +29,11 @@ tags:
 featured: true
 show_in_gallery: true
 
+resources:
+  - src: featured.jpg
+    params:
+      show_in_gallery: true
+
 image:
   caption: 'GAMM 2024, Magdeburg'
   focal_point: Center

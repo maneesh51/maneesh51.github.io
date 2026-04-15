@@ -28,8 +28,14 @@ tags:
 featured: true
 show_in_gallery: true
 
+resources:
+  - src: featured.jpg
+    params:
+      show_in_gallery: true
+      gallery_caption: Dynamics Days Europe Conference in Bremen 2024
+
 image:
-  caption: 'Dynamics Days Europe, Bremen 2024'
+  caption: 'Dynamics Days Europe Conference in Bremen 2024'
   focal_point: Center
   filename: featured.jpg
 

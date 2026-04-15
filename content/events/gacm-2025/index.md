@@ -30,6 +30,11 @@ tags:
 featured: true
 show_in_gallery: true
 
+resources:
+  - src: featured.jpg
+    params:
+      show_in_gallery: true
+
 image:
   caption: 'GACM 2025, TU Braunschweig'
   focal_point: Center

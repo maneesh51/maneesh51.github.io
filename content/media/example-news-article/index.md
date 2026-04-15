@@ -23,6 +23,14 @@ links:
     icon: hero/academic-cap
 
 featured: true
+show_in_gallery: true
+
+resources:
+  - src: featured.png
+    title: Wir/Vier 2024 cover feature
+    params:
+      show_in_gallery: true
+      gallery_caption: TU Berlin Annual Magazine Wir/Vier 2024 cover feature
 
 image:
   caption: Cover feature in TU Berlin Annual Magazine Wir/Vier 2024 - Physical Reservoir Computing

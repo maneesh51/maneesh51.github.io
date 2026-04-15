@@ -17,6 +17,15 @@ links:
     url: "https://www.berlin-university-alliance.de/commitments/teaching-learning/sturop/research-groups/index.html"
     icon: hero/academic-cap
 featured: true
+
+resources:
+  - src: featured.jpg
+    params:
+      show_in_gallery: true
+  - src: PRC_working.gif
+    params:
+      show_in_gallery: false
+
 content_meta:
   trending: true
 image:

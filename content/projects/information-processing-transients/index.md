@@ -13,6 +13,12 @@ links:
     icon: hero/building-office
 
 featured: true
+
+resources:
+  - src: featured.png
+    params:
+      show_in_gallery: true
+
 content_meta:
   trending: false
 

@@ -5,6 +5,12 @@ links:
   # - type: site
   #   url: https://www.tu.berlin/cpsme/studium-lehre/lehrveranstaltungen/x-student-research-group
 featured: true
+
+resources:
+  - src: featured.png
+    params:
+      show_in_gallery: true
+
 content_meta:
   trending: true
 image:

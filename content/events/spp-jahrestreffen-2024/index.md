@@ -31,6 +31,11 @@ tags:
 featured: false
 show_in_gallery: true
 
+resources:
+  - src: featured.jpg
+    params:
+      show_in_gallery: true
+
 image:
   caption: 'DFG SPP 2353 Jahrestreffen 2024, Bergisch Gladbach'
   focal_point: Center

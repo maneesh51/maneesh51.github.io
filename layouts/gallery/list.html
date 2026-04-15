@@ -154,19 +154,50 @@
 
 <div class="container mx-auto px-4 py-12" style="max-width: 1280px;">
   <h1 style="font-size: 1.875rem; font-weight: 700; margin-bottom: 0.5rem;">{{ .Title }}</h1>
-  <p style="color: #71717a; margin-bottom: 2rem;">All images from across the site. Click any image to enlarge.</p>
+  <p style="color: #71717a; margin-bottom: 2rem;">Pictures from various events, conferences, talks and meetings.</p>
 
   {{ $images := slice }}
 
-  {{/* Collect images only from pages explicitly marked with show_in_gallery: true */}}
-  {{ range .Site.Pages }}
+  {{/* Collect images from pages marked for gallery display, with optional per-image overrides. */}}
+  {{ range .Site.RegularPages }}
     {{ $page := . }}
     {{ if $page.Params.show_in_gallery }}
+      {{ $pageImages := slice }}
+      {{ $hasExplicitImageGalleryConfig := false }}
       {{ range .Resources.ByType "image" }}
-        {{ $name := .Name }}
+        {{ $resource := . }}
+        {{ $name := $resource.Name }}
         {{ if not (findRE "(?i)(avatar|icon|logo|sharing)" $name) }}
-          {{ $images = $images | append (dict "src" .RelPermalink "title" $page.Title "link" $page.RelPermalink "width" .Width "height" .Height) }}
+          {{ $params := $resource.Params | default dict }}
+          {{ $hasGalleryFlag := isset $params "show_in_gallery" }}
+          {{ if $hasGalleryFlag }}
+            {{ $hasExplicitImageGalleryConfig = true }}
+          {{ end }}
+
+          {{ $caption := $page.Title }}
+          {{ $resourceTitle := $resource.Title }}
+          {{ if and $resourceTitle (not (findRE "(?i)\\.(png|jpe?g|gif|webp|svg)$" $resourceTitle)) }}
+            {{ $caption = $resourceTitle }}
+          {{ end }}
+          {{ if isset $params "gallery_caption" }}
+            {{ $caption = index $params "gallery_caption" }}
+          {{ end }}
+          {{ if isset $params "credit" }}
+            {{ $caption = printf "%s (%s)" $caption (index $params "credit") }}
+          {{ end }}
+
+          {{ $pageImages = $pageImages | append (dict "src" $resource.RelPermalink "title" $caption "link" $page.RelPermalink "width" $resource.Width "height" $resource.Height "show_in_gallery" (and $hasGalleryFlag (index $params "show_in_gallery"))) }}
         {{ end }}
+      {{ end }}
+
+      {{ if $hasExplicitImageGalleryConfig }}
+        {{ range $pageImages }}
+          {{ if .show_in_gallery }}
+            {{ $images = $images | append . }}
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        {{ $images = $images | append $pageImages }}
       {{ end }}
     {{ end }}
   {{ end }}
@@ -192,7 +223,7 @@
       {{ end }}
     </div>
   {{ else }}
-    <p style="color: #71717a;">No images found yet. Add images to your content pages and they will appear here automatically.</p>
+    <p style="color: #71717a;">No images found yet. Add images to content pages and mark them for gallery display.</p>
   {{ end }}
 </div>
 
