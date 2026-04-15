@@ -35,6 +35,6 @@ main:
   - name: Media
     url: media/
     weight: 50
-  - name: Gallery
+  - name: Gallery 🆕
     url: gallery/
     weight: 55
