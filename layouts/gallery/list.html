@@ -243,6 +243,25 @@
       openLightbox(current);
     }
 
+    const focusableSelectors = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+
+    function trapFocus(e) {
+      if (!lightbox.classList.contains('open')) return;
+      const focusable = Array.from(lightbox.querySelectorAll(focusableSelectors)).filter(function (el) {
+        return !el.disabled && el.offsetParent !== null;
+      });
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.key === 'Tab') {
+        if (e.shiftKey) {
+          if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+        } else {
+          if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+      }
+    }
+
     items.forEach(function (item, i) {
       item.addEventListener('click', function () { openLightbox(i); });
       item.addEventListener('keydown', function (e) {
@@ -263,6 +282,7 @@
       if (e.key === 'Escape') closeLightbox();
       if (e.key === 'ArrowLeft') showPrev();
       if (e.key === 'ArrowRight') showNext();
+      trapFocus(e);
     });
   })();
 </script>
