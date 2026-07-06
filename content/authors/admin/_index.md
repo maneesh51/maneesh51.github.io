@@ -211,16 +211,14 @@ awards:
     summary: |
       Recipient of Innovation in Science Pursuit for Inspired Research (INSPIRE) scholarship by Depatment of Science and Technology, Govt. of India.
 ---
-
-My academic trajectory:    [IISER Mohali](https://www.iisermohali.ac.in/)
+Academic trajectory :     [IISER Mohali](https://www.iisermohali.ac.in/)
 &nbsp;→&nbsp;
 [MPI](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) Dortmund&nbsp;→&nbsp;Bonn
 &nbsp;→&nbsp;
 [TU Berlin](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav)
 
-I work at the interface of physics and machine learning, using nonlinear dynamics and complex networks to understand *how biochemical and natural information-processing systems compute efficiently, and how these principles can be translated develop minimal, efficient &interpretable ML frameworks*.
+I work at the interface of physics & machine learning, using nonlinear dynamics & complex networks to understand *how cellular systems process dynamic information efficiently across scales, and how to translate these principles to develop minimal, efficient & interpretable ML frameworks*. My work spans:<br>
 
-My work spans:<br>
 *(i)* defining *Homeorhesis*: trajectory-based cell-signaling & receptor-network computations,<br>
 *(ii)* identifying *structure-function* relationships through directed-evolution & pruning-based mechanisms,<br> 
 *(iii)* developing digital twins of complex mechanical & biological systems,<br>
