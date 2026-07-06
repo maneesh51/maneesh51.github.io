@@ -1,5 +1,5 @@
 ---
-title: "Reservoir Computing"
+title: "Reservoir Computing and Echo State Networks"
 summary: "Research focused on reservoir computing approaches for computational efficiency and network dynamics."
 ---
 

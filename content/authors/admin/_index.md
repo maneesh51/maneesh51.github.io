@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Physicist & ML Researcher, Postdoctoral Scientist
+role: Physicist & Bio-inspired ML Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -55,14 +55,17 @@ profiles:
     url: static/uploads/resume.pdf
   
 interests:
-  - Nonlinear Dynamics
-  - Complex Networks
-  - Machine Learning
-  - Biochemical Networks
-  - Cellular Information Processing
-  - Explainable AI
-  - Reservoir Computing
-  - Bio-Inspired Machines
+  - '[Bio-Inspired AI](/tags/bio-inspired-ai/)'
+  - '[Evolutionary ML](/tags/evolutionary-ml/)'
+  - '[Nonlinear Dynamics](/tags/nonlinear-dynamics/)'
+  - '[Complex Networks](/tags/complex-networks/)'
+  - '[RC & ESN](/tags/reservoir-computing/)'
+  - '[Physical-ML Devices](/tags/physical-ml-devices/)'
+  # - '[Machine Learning](/tags/machine-learning/)'
+  - '[Biochemical Networks](/tags/biochemical-networks/)'
+  - '[Cellular Information Processing](/tags/cellular-information-processing/)'
+  - '[Neuro-AI](/tags/neuro-ai/)'
+  
 
 # education:
 #   - area: BS-MS in Physics
@@ -209,17 +212,16 @@ awards:
       Recipient of Innovation in Science Pursuit for Inspired Research (INSPIRE) scholarship by Depatment of Science and Technology, Govt. of India.
 ---
 
-<!-- 
-I am a Physicist and Postdoctoral Scientist at TU Berlin, working on nonlinear dynamics, complex systems, information processing theory, and optimal network design.
+My academic trajectory:    [IISER Mohali](https://www.iisermohali.ac.in/)
+&nbsp;→&nbsp;
+[MPI](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) Dortmund&nbsp;→&nbsp;Bonn
+&nbsp;→&nbsp;
+[TU Berlin](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav)
 
-I completed my Ph.D. in 2023 in the Cellular [Cellular Computations and Learning group of Dr. Aneta Koseska](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) at the Max Planck Institute of Neurobiology of Behavior and was a PhD fellow at [IMPRS-LM, Dortmund](https://www.imprs-lm.mpg.de/). My doctoral work developed a theoretical framework for biochemical information processing in living cells using transient dynamics.
+I work at the interface of physics and machine learning, using nonlinear dynamics and complex networks to understand *how biochemical and natural information-processing systems compute efficiently, and how these principles can be translated develop minimal, efficient &interpretable ML frameworks*.
 
-Currently, I work in the [Cyber-Physical Systems in Mechanical Engineering (CPS-ME) department of TU Berlin](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav)  with Prof. M. Stender as part of the [DFG Special Priority Program SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/). My research focuses on reservoir computing for fast and energy-efficient machine learning in structural dynamics. -->
-
-I develop bio-inspired machine learning systems and physics-informed digital twins for engineering applications — designed to learn fast, generalize well, and run efficiently.
-
-My work spans **Liquid State Machines/Reservoir Computing** (a biologically-inspired ML paradigm ideal for edge deployment and structural monitoring), **optimal network design** (how topology shapes learning), and **nonlinear dynamics** (bifurcation-aware modeling with minimal data).
-
-At [TU Berlin](https://www.tu.berlin/cpsme/ueber-uns/team/manish-yadav), I develop dynamics-informed learning systems for structural mechanics as part of [DFG SPP 2353](https://www.itm.uni-stuttgart.de/en/spp_2353/). Previously, I built a theoretical framework for biochemical information processing at the [MPI, Bonn](https://mpinb.mpg.de/en/research-groups/groups/cellular-computations-and-learning/research-focus-ccl-eng.html) — work that now informs my approach to bio-inspired and neuromorphic ML architectures.
-
-I'm interested in 🤝collaborations and roles at the intersection of efficient AI, nature-inspired neuromorphic computing, and physics-constrained learning.
+My work spans:<br>
+*(i)* defining *Homeorhesis*: trajectory-based cell-signaling & receptor-network computations,<br>
+*(ii)* identifying *structure-function* relationships through directed-evolution & pruning-based mechanisms,<br> 
+*(iii)* developing digital twins of complex mechanical & biological systems,<br>
+*(iv)* building fluid dynamics-based physical ML device.
