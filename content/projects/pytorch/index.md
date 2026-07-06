@@ -27,6 +27,7 @@ image:
 tags:
   - Python Library
   - Reservoir computing
+  - Machine Learning
 
 ---
 

@@ -29,6 +29,7 @@ tags:
   - Reservoir Computing
   - Machine Learning
   - Structural Mechanics
+  - Machine Learning
  
 ---
 

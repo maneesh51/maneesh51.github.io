@@ -39,6 +39,8 @@ tags:
   - Complex Networks
   - Reservoir Computing
   - Machine Learning
+  - Bio-inspired AI
+  - Evolutionary ML
 ---
 
 This project has been started to understand emergent *structure-function* relationship of evolving networks. 

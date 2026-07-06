@@ -37,6 +37,8 @@ tags:
   - Reservoir Computing
   - ML
   - Teaching
+  - Machine Learning
+  - Physical-ML Devices
 ---
 
 [A Berlin University Alliance (BUA) Course](https://www.berlin-university-alliance.de/commitments/teaching-learning/sturop/research-groups/index.html) for engaging students with hands on research by building a Physical ML device that run on water and **helping young scientists lead research groups**. Here is the main [project page.](https://www.tu.berlin/cpsme/studium-lehre/lehrveranstaltungen/x-student-research-group) 

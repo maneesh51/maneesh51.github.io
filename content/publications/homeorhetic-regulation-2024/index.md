@@ -16,7 +16,7 @@ summary: Study of homeorhetic regulation mechanisms in cellular phenotype dynami
 tags:
 - Biochemical Networks
 - Cellular Information Processing
-- Nonlinear Dynamics
+- Bio-inspired AI
 
 featured: true
 
