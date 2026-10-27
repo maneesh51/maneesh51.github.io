@@ -19,6 +19,7 @@ tags:
 - Bifurcation
 - Benchmark Data
 - Computational Mechanics
+- Machine Learning
 
 featured: false
 

@@ -26,6 +26,8 @@ tags:
 - Network Pruning
 - Computational Efficiency
 - Structure-Function
+- Bio-Inspired AI
+- Evolutionary ML
 
 featured: false
 

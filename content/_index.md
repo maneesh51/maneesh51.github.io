@@ -154,24 +154,24 @@ sections:
       fill_image: true
       spacing:
         padding: ['0.0rem', 0, '0.0rem', 0]
-  - block: markdown
-    content:
-      title: '🔬 Research Areas'
-      text: |-
-        <div style="display: flex; flex-wrap: wrap; gap: 0.1rem; justify-content: flex-start;">
-        {{< button url="/tags/machine-learning/" style="outline" size="sm" >}}Machine Learning{{< /button >}}
-        {{< button url="/tags/reservoir-computing/" style="outline" size="sm" >}}Reservoir Computing{{< /button >}}
-        {{< button url="/tags/complex-networks/" style="outline" size="sm" >}}Complex Networks{{< /button >}}
-        {{< button url="/tags/nonlinear-dynamics/" style="outline" size="sm" >}}Nonlinear Dynamics{{< /button >}}
-        {{< button url="/tags/biochemical-networks/" style="outline" size="sm" >}}Biochemical Networks{{< /button >}}
-        {{< button url="/tags/cellular-information-processing/" style="outline" size="sm" >}}Cellular Information Processing{{< /button >}}
-        {{< button url="/tags/explainable-ai/" style="outline" size="sm" >}}Explainable AI{{< /button >}}
-        {{< button url="/tags/bio-inspired-machines/" style="outline" size="sm" >}}Bio-Inspired Machines{{< /button >}}
-        </div>
-    design:
-      columns: '1'
-      spacing:
-        padding: ['0.0rem', 0, '0.0rem', 0]
+  # - block: markdown
+  #   content:
+  #     title: '🔬 Research Areas'
+  #     text: |-
+  #       <div style="display: flex; flex-wrap: wrap; gap: 0.1rem; justify-content: flex-start;">
+  #       {{< button url="/tags/machine-learning/" style="outline" size="sm" >}}Machine Learning{{< /button >}}
+  #       {{< button url="/tags/reservoir-computing/" style="outline" size="sm" >}}Reservoir Computing{{< /button >}}
+  #       {{< button url="/tags/complex-networks/" style="outline" size="sm" >}}Complex Networks{{< /button >}}
+  #       {{< button url="/tags/nonlinear-dynamics/" style="outline" size="sm" >}}Nonlinear Dynamics{{< /button >}}
+  #       {{< button url="/tags/biochemical-networks/" style="outline" size="sm" >}}Biochemical Networks{{< /button >}}
+  #       {{< button url="/tags/cellular-information-processing/" style="outline" size="sm" >}}Cellular Information Processing{{< /button >}}
+  #       {{< button url="/tags/explainable-ai/" style="outline" size="sm" >}}Explainable AI{{< /button >}}
+  #       {{< button url="/tags/bio-inspired-machines/" style="outline" size="sm" >}}Bio-Inspired Machines{{< /button >}}
+  #       </div>
+  #   design:
+  #     columns: '1'
+  #     spacing:
+  #       padding: ['0.0rem', 0, '0.0rem', 0]
   # - block: collection
   #   content:
   #     title: Recent Publications

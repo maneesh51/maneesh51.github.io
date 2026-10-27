@@ -17,6 +17,10 @@ tags:
 - Wilson-Cowan Model
 - Digital Twins
 - Complex Networks
+- Machine Learning
+- Bio-Inspired AI
+- Evolutionary ML
+- Neuro-AI
 
 featured: true
 
