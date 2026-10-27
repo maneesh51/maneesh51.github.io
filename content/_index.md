@@ -56,6 +56,10 @@ sections:
         <div class="news-container" style="max-height: 280px; overflow-y: auto; padding-right: 0px; border-left: -3px solid var(--primary); padding-left: 0px; font-size: 0.85rem;">
           <ul style="list-style: none; padding: 0; margin: 0;">
             <li style="margin-bottom: 0px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
+              <span style="color: var(--muted-foreground); font-size: 0.75rem;">Oct 2026</span><br>
+              🆕🚀 New version of <a href="https://cyber-physical-systems-in-mech-eng.github.io/pyReCo/README.html">pyReCo</a> 2.1.0 released. Now also available on Zenodo with a citable <a href="https://doi.org/10.5281/zenodo.23189909">DOI</a>: doi.org/10.5281/zenodo.23189909.
+            </li>
+            <li style="margin-bottom: 0px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
               <span style="color: var(--muted-foreground); font-size: 0.75rem;">27 Mar 2026</span><br>
               🎤 Delivered a talk at <a href="/outreach/rcc26/#rcc26-talk">RCC26 conference</a>: <em>Understanding Structure-Function Relationships through PerformanceDependent Network Evolution</em>.
             </li>
